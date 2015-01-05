@@ -143,7 +143,7 @@
 
 ```
 <section>
-<p>One section</p>
+<h5>One section</h5>
 </section>
 <section>
 <p>another section</p>
