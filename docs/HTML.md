@@ -86,3 +86,32 @@
   <li>An item</li>
   <li>A different item</li>
 </ul>
+
+### 8. `<table>` -- data represented in two or more dimentions
+
+* *type:* block-level
+* *content:* flow content
+* *support:* all browsers
+* *example:*
+```
+<table>
+  <tr>
+    <td>cats</td>
+    <td>dogs</td>
+  </tr>
+  <tr>
+    <td>mice</td>
+    <td>fish</td>
+  </tr>
+</table>
+```
+<table>
+  <tr>
+    <td>cats</td>
+    <td>dogs</td>
+  </tr>
+  <tr>
+    <td>mice</td>
+    <td>fish</td>
+  </tr>
+</table>
