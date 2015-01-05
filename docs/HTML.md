@@ -40,5 +40,15 @@
 ```
 <address>123 main st, orlando FL 32817</address>
 ```
-<address>123 main st
-orlando FL 32817</address>
+<address>123 main st, orlando FL 32817</address>
+
+### 4. `<footer>` -- contains info about author of page, copywright info, and extra links
+
+* *type:* block-level
+* *content:* flow content, palpable content
+* *support:* all browsers
+* *example:*
+```
+<footer>&c Evan Klemen 2014</footer>
+```
+<footer>&c Evan Klemen 2014</footer>
