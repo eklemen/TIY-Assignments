@@ -30,3 +30,14 @@
 <header>Logo and nav links</header>
 ```
 <header>Logo and nav links</header>
+
+### 4. `<address>` -- supply contact info
+
+* *type:* block-level
+* *content:* flow content, palpable content
+* *support:* all browsers
+* *example:*
+```
+<address>123 main st, orlando FL 32817</address>
+```
+<address>123 main st, orlando FL 32817</address>
