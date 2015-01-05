@@ -49,6 +49,6 @@
 * *support:* all browsers
 * *example:*
 ```
-<footer>&copy Evan Klemen 2014</footer>
+<footer>Evan Klemen 2014</footer>
 ```
-<footer>&copy Evan Klemen 2014</footer>
+<footer>Evan Klemen 2014</footer>
