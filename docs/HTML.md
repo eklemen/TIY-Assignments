@@ -126,3 +126,25 @@
 <hr>
 ```
 <hr>
+
+### 10. `<section>` -- generic section of a document
+
+* *type:* block-level
+* *content:* flow content, sectioning content, palpable content
+* *support:* all browsers
+* *example:*
+```
+<section>
+<p>One section</p>
+</section>
+<section>
+<p>another section</p>
+</section>
+
+```
+<section>
+<p>One section</p>
+</section>
+<section>
+<p>another section</p>
+</section>
