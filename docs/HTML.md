@@ -111,7 +111,7 @@
     <td>dogs</td>
   </tr>
   <tr>
-    <td>mice</td>
-    <td>fish</td>
+    <td>5</td>
+    <td>2</td>
   </tr>
 </table>
