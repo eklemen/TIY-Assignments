@@ -69,3 +69,20 @@
   <li>Item one</li>
   <li>Item two</li>
 </ol>
+
+### 7. `<ul>` -- unordered list
+
+* *type:* block-level
+* *content:* flow content
+* *support:* all browsers
+* *example:*
+```
+<ul>
+  <li>An item</li>
+  <li>A different item</li>
+</ul>
+```
+<ul>
+  <li>An item</li>
+  <li>A different item</li>
+</ul>
