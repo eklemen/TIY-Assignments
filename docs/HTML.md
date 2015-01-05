@@ -42,7 +42,7 @@
 ```
 <address>123 main st, orlando FL 32817</address>
 
-### 4. `<footer>` -- contains info about author of page, copywright info, and extra links
+### 5. `<footer>` -- contains info about author of page, copywright info, and extra links
 
 * *type:* block-level
 * *content:* flow content, palpable content
@@ -52,3 +52,20 @@
 <footer>Evan Klemen 2014</footer>
 ```
 <footer>Evan Klemen 2014</footer>
+
+### 6. `<ol>` -- ordered list
+
+* *type:* block-level
+* *content:* flow content, palpable content
+* *support:* all browsers
+* *example:*
+```
+<ol>
+  <li>Item one</li>
+  <li>Item two</li>
+</ol>
+```
+<ol>
+  <li>Item one</li>
+  <li>Item two</li>
+</ol>
