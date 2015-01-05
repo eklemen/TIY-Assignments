@@ -115,3 +115,14 @@
     <td>2</td>
   </tr>
 </table>
+
+### 9. `<hr>` -- horizontal rule, break between paragraphs
+
+* *type:* block-level
+* *content:* flow content
+* *support:* all browsers
+* *example:*
+```
+<hr>
+```
+<hr>
