@@ -19,3 +19,14 @@
 <div><p>Contains something</p></div>
 ```
 <div><p>Contains something</p></div>
+
+### 3. `<header>` -- Contains navigation, logos and heading elements
+
+* *type:* block-level
+* *content:* flow content, palpable content
+* *support:* all browsers
+* *example:*
+```
+<header>Logo and nav links</header>
+```
+<header>Logo and nav links</header>
