@@ -57,7 +57,7 @@
 
 * *type:* block-level
 * *content:* flow content, palpable content
-* *support:* all browsers
+* *support:* all browsers (basic support)
 * *example:*
 ```
 <ol>
@@ -74,7 +74,7 @@
 
 * *type:* block-level
 * *content:* flow content
-* *support:* all browsers
+* *support:* all browsers, no HTML5
 * *example:*
 ```
 <ul>
