@@ -160,13 +160,24 @@
 ```
 <p>This represents <b>different </b> texts. </p>
 
-### 12. `<b>` -- represents text which is stylistically differently 
+### 12. `<cite>` -- references another piece of work
 
 * *type:* in-line
 * *content:* Flow content, phrasing content, palpable content
 * *support:* all browsers
 * *example:*
 ```
-<p>This represents <b>different </b> texts. </p>
+For more info <cite>[ISO]</cite>.
 ```
-<p>This represents <b>different </b> texts. </p>
+For more info <cite>[ISO]</cite>.
+
+### 13. `<code>` -- shows a piece of code
+
+* *type:* in-line
+* *content:* Flow content, phrasing content, palpable content
+* *support:* all browsers
+* *example:*
+```
+<p>Regular text <code>code stuffs</code> more text</p>
+```
+<p>Regular text <code>code stuffs</code> more text</p>
