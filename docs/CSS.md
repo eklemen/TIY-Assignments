@@ -39,3 +39,12 @@
 * *inherited:* no
 * *initial value:* auto
 
+### 7. `margin`
+
+* *elements:* all except table elements
+* *inherited:* no
+* *initial value:* margin-bottom: 0
+margin-left: 0
+margin-right: 0
+margin-top: 0
+
