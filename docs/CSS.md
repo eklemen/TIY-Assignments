@@ -3,10 +3,22 @@
 * *elements:* positioned elements
 * *inherited:* no
 
-#### Values
 
-* `length` -- interget
-* `percentage` -- of block width
-* `auto` -- for absolutely positioned elements
-* `inherit` -- ...
+### 2. `right`
+
+* *elements:* positioned elements
+* *inherited:* no
+
+### 3. `background`
+
+* *elements:* all
+* *inherited:* no
+
+### 4. `background`
+
+* *elements:* all
+* *inherited:* no
+
+
+
 
