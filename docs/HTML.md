@@ -181,3 +181,25 @@ For more info <cite>[ISO]</cite>.
 <p>Regular text <code>code stuffs</code> more text</p>
 ```
 <p>Regular text <code>code stuffs</code> more text</p>
+
+### 14. `<em>` -- shows emphasis
+
+* *type:* in-line
+* *content:* Flow content, phrasing content, palpable content
+* *support:* all browsers
+* *example:*
+```
+<p>Regular text <em>EMPHASIZE</em> more text</p>
+```
+<p>Regular text <em>EMPHASIZE</em> more text</p>
+
+### 15. `<kbd>` -- keyboard input
+
+* *type:* in-line
+* *content:* Flow content, phrasing content, palpable content
+* *support:* all browsers
+* *example:*
+```
+<p>Please press <kbd>CTRL</kbd> to continue</p>
+```
+<p>Please press <kbd>CTRL</kbd> to continue</p>
