@@ -33,6 +33,9 @@
 * *inherited:* yes
 * *initial value:* style, variant, weight, stretch, size etc...
 
+### 6. `bottom`
 
-
+* *elements:* positioned
+* *inherited:* no
+* *initial value:* auto
 
