@@ -203,3 +203,14 @@ For more info <cite>[ISO]</cite>.
 <p>Please press <kbd>CTRL</kbd> to continue</p>
 ```
 <p>Please press <kbd>CTRL</kbd> to continue</p>
+
+### 16. `<strong>` -- importance to text, usually bold
+
+* *type:* in-line
+* *content:* Flow content, phrasing content
+* *support:* all browsers
+* *example:*
+```
+<p>Add some <strong>STRONG</strong> text.</p>
+```
+<p>Add some <strong>STRONG</strong> text.</p>
