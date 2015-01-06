@@ -225,3 +225,14 @@ For more info <cite>[ISO]</cite>.
 <p>Please find <var>x</var> when 1 + <var>x</var> = 2
 ```
 <p>Please find <var>x</var> when 1 + <var>x</var> = 2
+
+### 18. `<img>` -- image element
+
+* *type:* in-line
+* *content:* Flow content, phrasing content, embedded content
+* *support:* all browsers
+* *example:*
+```
+<p>Add and image with <img src="http://google.com /></p>
+```
+<p>Add some <strong>STRONG</strong> text.</p>
