@@ -54,3 +54,11 @@ margin-top: 0
 * *inherited:* no
 * *initial value:* 1.0
 
+### 10. `padding`
+
+* *elements:* all except table elements
+* *inherited:* no
+* *initial value:* padding-bottom: 0
+padding-left: 0
+padding-right: 0
+padding-top: 0
