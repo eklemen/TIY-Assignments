@@ -236,3 +236,14 @@ For more info <cite>[ISO]</cite>.
 <p>Add and image with <img src="http://google.com /></p>
 ```
 <p>Add some <strong>STRONG</strong> text.</p>
+
+### 19. `<span>` -- generic inline container
+
+* *type:* in-line
+* *content:* Flow content, phrasing content
+* *support:* all browsers
+* *example:*
+```
+<p>Add and image with <img src="http://google.com /></p>
+```
+<p>Add a <span>span</span> of text.</p>
