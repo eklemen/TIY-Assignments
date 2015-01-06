@@ -27,4 +27,10 @@
 * *initial value:* width, style, color
 
 
+### 5. `border`
+
+* *elements:* all
+* *inherited:* no
+* *initial value:* width, style, color
+
 
