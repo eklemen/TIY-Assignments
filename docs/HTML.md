@@ -233,9 +233,9 @@ For more info <cite>[ISO]</cite>.
 * *support:* all browsers
 * *example:*
 ```
-<p>Add and image with <img src="http://google.com /></p>
+<p>Add and image with <img src="http://google.com" /></p>
 ```
-<p>Add some <strong>STRONG</strong> text.</p>
+<p>Add and image with <img src="http://google.com" /></p>
 
 ### 19. `<span>` -- generic inline container
 
@@ -244,6 +244,21 @@ For more info <cite>[ISO]</cite>.
 * *support:* all browsers
 * *example:*
 ```
-<p>Add and image with <img src="http://google.com /></p>
+<p>Add a <span>span</span> of text.</p>
 ```
 <p>Add a <span>span</span> of text.</p>
+
+### 20. `<br>` -- line break
+
+* *type:* in-line
+* *content:* Flow content, phrasing content
+* *support:* all browsers
+* *example:*
+```
+Evan<br>
+Orlando<br>
+FL<br>
+```
+Evan<br>
+Orlando<br>
+FL<br>
