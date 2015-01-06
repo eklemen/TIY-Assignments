@@ -222,9 +222,9 @@ For more info <cite>[ISO]</cite>.
 * *support:* all browsers
 * *example:*
 ```
-<p>Please find <var>x</var> when 1 + <var>x</var> = 2
+<p>Please find <var>x</var> when 1 + <var>x</var> = 2</p>
 ```
-<p>Please find <var>x</var> when 1 + <var>x</var> = 2
+<p>Please find <var>x</var> when 1 + <var>x</var> = 2</p>
 
 ### 18. `<img>` -- image element
 
