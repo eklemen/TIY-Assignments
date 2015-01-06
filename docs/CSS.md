@@ -27,10 +27,12 @@
 * *initial value:* width, style, color
 
 
-### 5. `border`
+### 6. `font`
 
 * *elements:* all
-* *inherited:* no
-* *initial value:* width, style, color
+* *inherited:* yes
+* *initial value:* style, variant, weight, stretch, size etc...
+
+
 
 
