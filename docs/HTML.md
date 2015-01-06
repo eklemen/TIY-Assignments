@@ -214,3 +214,14 @@ For more info <cite>[ISO]</cite>.
 <p>Add some <strong>STRONG</strong> text.</p>
 ```
 <p>Add some <strong>STRONG</strong> text.</p>
+
+### 17. `<var>` -- mathematical variable
+
+* *type:* in-line
+* *content:*phrasing content
+* *support:* all browsers
+* *example:*
+```
+<p>Please find <var>x</var> when 1 + <var>x</var> = 2
+```
+<p>Please find <var>x</var> when 1 + <var>x</var> = 2
