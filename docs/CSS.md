@@ -33,13 +33,13 @@
 * *inherited:* yes
 * *initial value:* style, variant, weight, stretch, size etc...
 
-### 6. `bottom`
+### 7. `bottom`
 
 * *elements:* positioned
 * *inherited:* no
 * *initial value:* auto
 
-### 7. `margin`
+### 8. `margin`
 
 * *elements:* all except table elements
 * *inherited:* no
@@ -47,4 +47,10 @@
 margin-left: 0
 margin-right: 0
 margin-top: 0
+
+### 9. `opacity`
+
+* *elements:* all
+* *inherited:* no
+* *initial value:* 1.0
 
