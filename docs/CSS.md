@@ -14,11 +14,17 @@
 * *elements:* all
 * *inherited:* no
 
-### 4. `background`
+### 4. `float`
 
 * *elements:* all
 * *inherited:* no
+* *initial value:* none
 
+### 5. `border`
+
+* *elements:* all
+* *inherited:* no
+* *initial value:* width, style, color
 
 
 
