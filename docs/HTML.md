@@ -212,6 +212,19 @@ width - px or %
 <p>another section</p>
 </section> 
 
+#### Attributes - values: 
+global
+* *Example:*
+```
+<section id="first">
+<h5>One section</h5>
+</section>
+<section id="second">
+<p>another section</p>
+</section> 
+
+```
+
 ### 11. `<b>` -- represents text which is stylistically differently 
 
 * *type:* in-line
