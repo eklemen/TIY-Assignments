@@ -296,6 +296,11 @@ This is regular text and <code style="bold"> this is code</code>
 ```
 <p>Regular text <em>EMPHASIZE</em> more text</p>
 
+#### Attributes - values: 
+global
+event
+
+
 ### 15. `<kbd>` -- keyboard input
 
 * *type:* in-line
@@ -306,6 +311,10 @@ This is regular text and <code style="bold"> this is code</code>
 <p>Please press <kbd>CTRL</kbd> to continue</p>
 ```
 <p>Please press <kbd>CTRL</kbd> to continue</p>
+
+#### Attributes - values: 
+global
+event
 
 ### 16. `<strong>` -- importance to text, usually bold
 
