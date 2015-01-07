@@ -254,6 +254,15 @@ For more info <cite>[ISO]</cite>.
 ```
 For more info <cite>[ISO]</cite>.
 
+#### Attributes - values: 
+global
+event
+
+* *Example:*
+```
+For more info <cite id="citation">[ISO]</cite>.
+```
+
 ### 13. `<code>` -- shows a piece of code
 
 * *type:* in-line
