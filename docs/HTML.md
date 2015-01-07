@@ -327,6 +327,10 @@ event
 ```
 <p>Add some <strong>STRONG</strong> text.</p>
 
+#### Attributes - values: 
+global
+event
+
 ### 17. `<var>` -- mathematical variable
 
 * *type:* in-line
@@ -337,6 +341,19 @@ event
 <p>Please find <var>x</var> when 1 + <var>x</var> = 2</p>
 ```
 <p>Please find <var>x</var> when 1 + <var>x</var> = 2</p>
+
+#### Attributes - values: 
+align - top, bottom, middle, left, right
+alt - text
+crossorigin - anon use-credentials
+height - px
+hspace - px
+ismap - ismap
+longdesc - URL
+src - URL
+usemap - #mapname
+vspace - px
+width - px
 
 ### 18. `<img>` -- image element
 
