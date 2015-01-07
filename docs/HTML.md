@@ -29,9 +29,6 @@
 
 
 #### `height` & `width` -- defines the height and width
-
-* *values:* can be absolute or relative
-* *support:* all browsers
 * *examples:*
 ```html
 <div style="height: 50px; width: 50px">Picure</div>
@@ -47,6 +44,12 @@
 <header>Logo and nav links</header>
 ```
 <header>Logo and nav links</header>
+
+#### Attributes: gobal
+* *example:* 
+```
+
+```
 
 ### 4. `<address>` -- supply contact info
 
@@ -71,6 +74,12 @@
 ```
 <footer>Evan Klemen 2014</footer>
 
+#### Attributes:
+* *Example:*
+```
+
+```
+
 ### 6. `<ol>` -- ordered list
 
 * *type:* block-level
@@ -87,6 +96,12 @@
   <li>Item one</li>
   <li>Item two</li>
 </ol>
+
+#### Attributes: reversed, start, type, global
+* *Example:*
+```
+<ol
+```
 
 ### 7. `<ul>` -- unordered list
 
