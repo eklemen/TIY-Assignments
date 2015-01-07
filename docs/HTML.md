@@ -9,16 +9,33 @@
 ```
 -Audio playing-
 
+#### Attributes: loop, preload, src, buffered, controls, autoplay
+* *Example:*
+```
+<audio src="http://www.youtube.com"</audio>
+```
+
 ### 2. `<div>` -- Generic container
 
 * *type:* block-level
 * *content:* flow content, palpable content
 * *support:* all browsers
+* *attributes:* Width and height
 * *example:*
 ```
 <div><p>Contains something</p></div>
 ```
 <div><p>Contains something</p></div>
+
+
+#### `height` & `width` -- defines the height and width
+
+* *values:* can be absolute or relative
+* *support:* all browsers
+* *examples:*
+```html
+<div style="height: 50px; width: 50px">Picure</div>
+```
 
 ### 3. `<header>` -- Contains navigation, logos and heading elements
 
