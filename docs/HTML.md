@@ -343,17 +343,8 @@ event
 <p>Please find <var>x</var> when 1 + <var>x</var> = 2</p>
 
 #### Attributes - values: 
-align - top, bottom, middle, left, right
-alt - text
-crossorigin - anon use-credentials
-height - px
-hspace - px
-ismap - ismap
-longdesc - URL
-src - URL
-usemap - #mapname
-vspace - px
-width - px
+global
+event
 
 ### 18. `<img>` -- image element
 
@@ -366,6 +357,20 @@ width - px
 ```
 <p>Add and image with <img src="http://google.com" /></p>
 
+#### Attributes - values: 
+align - top, bottom, middle, left, right
+alt - text
+crossorigin - anon use-credentials
+height - px
+hspace - px
+ismap - ismap
+longdesc - URL
+src - URL
+usemap - #mapname
+vspace - px
+width - px
+
+
 ### 19. `<span>` -- generic inline container
 
 * *type:* in-line
@@ -376,6 +381,11 @@ width - px
 <p>Add a <span>span</span> of text.</p>
 ```
 <p>Add a <span>span</span> of text.</p>
+
+#### Attributes - values: 
+global
+event
+
 
 ### 20. `<br>` -- line break
 
@@ -391,3 +401,7 @@ FL<br>
 Evan<br>
 Orlando<br>
 FL<br>
+
+#### Attributes - values: 
+global
+event
