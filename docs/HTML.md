@@ -236,6 +236,13 @@ global
 ```
 <p>This represents <b>different </b> texts. </p>
 
+#### Attributes - values: 
+global
+* *Example:*
+```
+<p>This represents <b class="paragraph one">different </b> texts. </p>
+```
+
 ### 12. `<cite>` -- references another piece of work
 
 * *type:* in-line
