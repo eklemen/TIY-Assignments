@@ -97,7 +97,11 @@
   <li>Item two</li>
 </ol>
 
-#### Attributes: reversed, start, type, global
+#### Attributes - values: 
+reversed - reversed
+compact - compact
+start - number
+type - 1 A a I i
 * *Example:*
 ```
 <ol
