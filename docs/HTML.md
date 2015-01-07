@@ -120,6 +120,17 @@
   <li>A different item</li>
 </ul>
 
+#### Attributes: 
+compact
+type - disc, square, circle
+* *Example:*
+```
+<ul disc>
+  <li>An item</li>
+  <li>A different item</li>
+</ul>
+```
+
 ### 8. `<table>` -- data represented in two or more dimentions
 
 * *type:* block-level
