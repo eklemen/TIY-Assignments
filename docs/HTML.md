@@ -104,7 +104,11 @@ start - number
 type - 1 A a I i
 * *Example:*
 ```
-<ol
+<ol type="a">
+  <li>Item one</li>
+  <li>Item two</li>
+</ol>
+
 ```
 
 ### 7. `<ul>` -- unordered list
@@ -174,6 +178,17 @@ type - disc, square, circle
 <hr>
 ```
 <hr>
+
+#### Attributes - values: 
+align - left, center, right
+noshade - noshade
+size - px
+width - px or %
+* *Example:*
+```
+<hr align="left">
+
+```
 
 ### 10. `<section>` -- generic section of a document
 
