@@ -36,6 +36,7 @@
 * *type:* block-level
 * *content:* flow content, palpable content
 * *support:* all browsers
+* *attributes:* Global attributes
 * *example:*
 ```
 <address>123 main st, orlando FL 32817</address>
