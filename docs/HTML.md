@@ -276,6 +276,15 @@ For more info <cite id="citation">[ISO]</cite>.
 ```
 <p>Regular text <code>code stuffs</code> more text</p>
 
+#### Attributes - values: 
+global
+event
+
+* *Example:*
+```
+This is regular text and <code style="bold"> this is code</code>
+```
+
 ### 14. `<em>` -- shows emphasis
 
 * *type:* in-line
