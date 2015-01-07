@@ -77,7 +77,7 @@
 #### Attributes:
 * *Example:*
 ```
-
+<footer class="feet"></footer>
 ```
 
 ### 6. `<ol>` -- ordered list
@@ -133,7 +133,7 @@ compact
 type - disc, square, circle
 * *Example:*
 ```
-<ul disc>
+<ul type="disc">
   <li>An item</li>
   <li>A different item</li>
 </ul>
