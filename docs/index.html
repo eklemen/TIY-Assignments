@@ -28,17 +28,20 @@
            padding-top: 8px;
            text-align: center;
        }
-       #sidebar-pic{
+       
+       .sidebar-pic img {
             border-radius: 100%;
-            border: 5px;
-            padding-left: -6px;
+            border: 5px solid white;
+            margin: -85px 0 30px 0;
+            position: relative;
        }
-       #side_font {
-           padding-right: 5px;
-           padding-left: -5px;
-           margin-left: 5px;
+
+       .side_font {
+       	   margin: 0 0 -30px;
+       	   width: 120px;
+       	   height: 120px;
        }
-        .page-column-main{
+        .page-column-main {
             max-width: 100%;
             width: 650px;
             margin-left: 300px;
@@ -76,26 +79,32 @@
                 <img src="http://lorempixel.com/output/food-q-c-1296-393-8.jpg" />
                 
             </header>
-            <section class="page-columns">
-                <aside style="float-left; width:100px" class="page-column-side">
-                    <a href="http://www.reddit.com/r/food"><img src="http://lorempixel.com/output/food-q-g-150-150-10.jpg" id="sidebar-pic" /></a>
-                    <h4 id="side_font">The best food blog this side of the Mississippi</h4>
-                </aside>
-                <section class="page-column-main">
-                    <a href="http://www.reddit.com"><h3 id="article-1">Baking bad</h3></a>
-		                <p>Ut quis ipsum tellus. Quisque placerat cursus mauris eget molestie. Nulla condimentum efficitur arcu, vitae volutpat metus tincidunt sed. Curabitur consectetur arcu id porta viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-                        <img src="http://lorempixel.com/output/food-q-c-500-280-8.jpg" />
-                    <a href="http://www.allrecipies.com"><h3 id="article-2">Sometime I feel like I don't even carrot all</h3></a>
-		                <p>Ut quis ipsum tellus. Quisque placerat cursus mauris eget molestie. Nulla condimentum efficitur arcu, vitae volutpat metus tincidunt sed. Curabitur consectetur arcu id porta viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-                        <img src="http://lorempixel.com/output/food-q-c-500-280-3.jpg" />
-                    <a href="http://www.foodnetwork.com"><h3 id="article-3">Just some text</h3></a>
-                        <p>Ut quis ipsum tellus. Quisque placerat cursus mauris eget molestie. Nulla condimentum efficitur arcu, vitae volutpat metus tincidunt sed. Curabitur consectetur arcu id porta viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-                   <!-- Leaving this out for now
-                   <a href="http://www.reddit.com/r/recipies"><div class="load-button">Press to load more</div></a>
-                    -->
-                </section> <!-- .page-column-main -->
-                
-            </section> <!-- .page-columns -->
+                <div>
+                    <aside style="float-left; width:100px" class="page-column-side">
+                        <div class="sidebar-pic"><a href="http://www.reddit.com/r/food"><img src="http://lorempixel.com/output/food-q-g-150-150-10.jpg" /></a>
+                            <h4>The best food blog this side of the Mississippi</h4>
+                        </div>
+                    </aside>
+                    <section class="page-column-main">
+                        <a href="http://www.reddit.com"><h3>Baking bread so I can make some dough</h1></a>
+    		                <p>Ut quis ipsum tellus. Quisque placerat cursus mauris eget molestie. Nulla condimentum efficitur arcu, vitae volutpat metus tincidunt sed. Curabitur consectetur arcu id porta viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+                            <figure>
+                                <img src="http://lorempixel.com/output/food-q-c-500-280-8.jpg" />
+                                <figcaption>Picture caption</figcaption>
+                            </figure>
+                        <a href="http://www.allrecipies.com"><h3>Sometime I feel like I don't even carrot all</h1></a>
+    		                <p>Ut quis ipsum tellus. Quisque placerat cursus mauris eget molestie. Nulla condimentum efficitur arcu, vitae volutpat metus tincidunt sed. Curabitur consectetur arcu id porta viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+                            <figure>
+                                <img src="http://lorempixel.com/output/food-q-c-500-280-3.jpg" />
+                                <figcaption>Caption</figcaption>
+                            </figure>    
+                        <a href="http://www.foodnetwork.com"><h3>Just some text</h1></a>
+                            <p>Ut quis ipsum tellus. Quisque placerat cursus mauris eget molestie. Nulla condimentum efficitur arcu, vitae volutpat metus tincidunt sed. Curabitur consectetur arcu id porta viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+                       <!-- Leaving this out for now
+                       <a href="http://www.reddit.com/r/recipies"><button class="more_button">Press to load more</button></a>
+                        -->
+                    </section> <!-- .page-column-main -->
+                </div>
             <footer id="page-footer">
                 <a href="http://reddit.com/r/foodporn"><img src="http://lorempixel.com/output/food-q-c-150-150-9.jpg" id="footer_logo" /></a>
                 <h4 id="footer_text">Chef Boyardee | Orlando</h4>
