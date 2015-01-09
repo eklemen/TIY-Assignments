@@ -15,18 +15,46 @@
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <style>
+            header {
+                background-image: url(http://lorempixel.com/output/nature-q-c-1265-644-10.jpg);
+                background-repeat: no-repeat;
+            }
             
+            #title {
+                width: 50%;
+               margin: 0 auto;
+               color: white;
+            }
+            
+            ul {
+                display: inline;
+            }
         </style>
         
     </head>
     <body>
         <div class="page-header">
             <header>
-                <h1>SURF & PADDLE CO.</h1>
+                <h1 id="title">SURF & PADDLE CO.</h1>
                     <p id="sub-title" style="border-color: red">An Iron Yard Academy Project est. 2015</p>
                     <p id="logo">SURF & PADDLE CO. BLOG</p>
-                    <div class=""><span>ABOUT</span><span>SEARCH</span></div>
+                    <div class="about-search">
+                        <ul>
+                            <li>ABOUT</li>
+                            <li>SEARCH</li>
+                        </ul>
+                    </div> <!-- about-search -->
             </header>
+        </div> <!-- page-header -->
+        
+        <div>
+            <aside style="float: right; max-width: 25%" class="column-right">
+                
+                <p>a picture and some text about an ad</p>
+            </aside>
+            
+            
+            
         </div>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
