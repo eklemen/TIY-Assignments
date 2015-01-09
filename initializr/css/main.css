@@ -93,6 +93,7 @@ textarea {
                 color: white;
                 top: 180px;
                 display: block;
+                text-shadow: 2px 2px #000;
             }
             
             #sub-title{
@@ -105,11 +106,11 @@ textarea {
             
             .about-search {
                 float: right;
-                margin: 0 20px;
+                margin: -5 20px 0 -20px;
             }
             
             .logo {
-                margin: 5px 0 0 20px;
+                margin: 5px 0 0 30px;
             }
             
             li {
