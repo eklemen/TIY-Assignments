@@ -61,7 +61,48 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+ /*           .footer-pics {
+                display: -webkit-flex;
+                -webkit-justify-content: center;
+                -webkit-align-items: flex-end;
+            }
 
+            header {
+                background-image: url(http://lorempixel.com/output/nature-q-c-1265-644-10.jpg);
+                background-repeat: no-repeat;
+            }
+          
+*/        
+            .page-header {
+                width: 100%
+            }
+            
+            #title {
+                text-align: center;
+                width: 50%;
+               margin: 0 auto;
+               color: white;
+            }
+            
+            #sub-title{
+                width: 50%;
+                margin: 0 auto;
+                text-align: center;
+            }
+            
+            li {
+                display: inline;
+            }
+            
+            .column-main {
+                float: left;
+                width: 500px;
+                max-width: 70%;
+            }
+            
+            .footer-pics {
+                display: inline-block;
+            }
 
 
 

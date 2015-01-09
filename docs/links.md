@@ -3,3 +3,5 @@ https://s3.amazonaws.com/uploads.hipchat.com/31349/1589694/7POGoXPeRePoqLx/Scree
 
 #### Flexbox CSS
 http://www.sketchingwithcss.com/samplechapter/
+http://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://umaar.github.io/css-flexbox-demo/
