@@ -67,9 +67,12 @@ textarea {
                 -webkit-align-items: flex-end;
             }
 */
+            
             header {
                 background-image: url(http://fs01.androidpit.info/ass/26/16/12032616-1386243187271.jpg);
                 background-repeat: no-repeat;
+                background-size: cover;
+                
             }
           
         
@@ -116,6 +119,13 @@ textarea {
             li {
                 display: inline;
             }
+            
+            /***********
+            .center-container {
+                width: 940px;
+                max-width: 100%;
+            }
+            ***********/
             
             .column-main {
                 float: left;
