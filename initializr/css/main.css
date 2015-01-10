@@ -150,12 +150,13 @@ textarea {
             }
             
             .social-icon {
-                margin-top: 10%px;
+                margin-top: 10%;
+                padding-right: 10%;
             }
             
             .author-side {
                 margin: 20px;
-                right: 35px;
+             
             }
             
             #date {
@@ -178,6 +179,10 @@ textarea {
                 margin-top: 20px;
             }
             
+            blockquote {
+                font-size: 25pt;
+                color: #4282C8;
+            }
             
             .footer-pics {
                 display: inline-block;
