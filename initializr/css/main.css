@@ -244,6 +244,11 @@ textarea {
                 no-repeat center center;
             }
             
+            .pic4 {
+                background: url(http://www.shockmansion.com/wp-content/myimages/2011/07/tn_e46ce3134c163545_2.jpg)
+                no-repeat center center;
+            }
+            
             .popular-pic {
                 width: 100%;
                 float: left;
