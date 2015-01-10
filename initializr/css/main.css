@@ -67,10 +67,14 @@ textarea {
                 -webkit-align-items: flex-end;
             }
 */            
+            /****************
+            Header
+            ****************/
+
             .top {
             margin-top: -20px;
             margin-bottom: 40px;
-        }
+            }
             
             header {
                 background-image: url(http://fs01.androidpit.info/ass/26/16/12032616-1386243187271.jpg);
@@ -124,9 +128,13 @@ textarea {
                 display: inline;
             }
             
+            /*******************
+            Main article
+            *******************/
+            
             .container {
                 width: 80%;
-                margin: 0 auto 0 auto;
+                margin: 0 auto;
                 max-width: 960px;
             }
             
@@ -149,14 +157,26 @@ textarea {
                 border-radius: 100%;
             }
             
+            aside.column-side {
+                margin: 0 auto;
+                display: block;
+            }
+            
             .social-icon {
                 margin-top: 10%;
-                padding-right: 10%;
+                text-align: right;
+                
+            }
+            
+            #social-text {
+               margin-left: 20px;
             }
             
             .author-side {
-                margin: 20px;
-             
+                margin: 0 auto;
+                height: 120px;
+                width: 120px;
+               
             }
             
             #date {
@@ -172,7 +192,11 @@ textarea {
                 width: 35%;
                 margin-left: auto;
                 float: right;
-                text-align: right;
+            }
+            
+            .sidebar-article{
+                text-align: left;
+                margin: 0 -5% 0 12%;
             }
             
             .article-image {
