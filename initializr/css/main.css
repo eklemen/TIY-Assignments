@@ -66,7 +66,10 @@ textarea {
                 -webkit-justify-content: center;
                 -webkit-align-items: flex-end;
             }
-*/
+*/            
+            .top {
+            margin-top: -20px;
+        }
             
             header {
                 background-image: url(http://fs01.androidpit.info/ass/26/16/12032616-1386243187271.jpg);
@@ -120,17 +123,26 @@ textarea {
                 display: inline;
             }
             
-            /***********
-            .center-container {
-                width: 940px;
-                max-width: 100%;
+            .container {
+                width: 80%;
+                margin: 0 auto 0 auto;
             }
-            ***********/
-            
+            /*
             .column-main {
                 float: left;
-                width: 500px;
-                max-width: 70%;
+                width: 100%;
+            }
+            */
+            article {
+                width: 65%;
+                margin: 0 auto 0 auto;
+                float: left;
+            }
+            
+            .column-side {
+                width: 35%;
+                margin-left: auto;
+                float: right;
             }
             
             .footer-pics {
