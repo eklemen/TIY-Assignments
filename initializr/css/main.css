@@ -88,6 +88,7 @@ textarea {
                 position: relative;
                 height: 400px;
                 width: 100%;
+                
             }
             
             header div img {
@@ -105,6 +106,7 @@ textarea {
                 top: 180px;
                 display: block;
                 text-shadow: 2px 2px #000;
+                
             }
             
             #sub-title{
@@ -149,6 +151,7 @@ textarea {
             
             article h2 {
                 font-size: 2em;
+                font-family: 'Oswald', sans-serif;
             }
             
             .author-byline {
@@ -226,6 +229,7 @@ textarea {
                 height: 325px;
                 width: 25%;
                 min-width: 165px;
+                background: #004564;
                 position: relative;
                 float: left;
             }
