@@ -138,6 +138,9 @@ textarea {
                 max-width: 960px;
             }
             
+            /********************
+            Main column
+            ********************/
             article {
                 width: 65%;
                 margin: 0 auto 0 auto;
@@ -156,6 +159,10 @@ textarea {
             .author-pic {
                 border-radius: 100%;
             }
+            
+            /********************
+            Sidebar
+            ********************/
             
             aside.column-side {
                 margin: 0 auto;
@@ -184,10 +191,6 @@ textarea {
                 padding-left: 1%;
             }
             
-            article img {
-                
-            }
-            
             .column-side {
                 width: 35%;
                 margin-left: auto;
@@ -208,9 +211,57 @@ textarea {
                 color: #4282C8;
             }
             
-            .footer-pics {
-                display: inline-block;
+            /*********************
+            Popular posts 1290px
+            *********************/
+            .popular-posts {
+                clear: both;
+                margin: 0 auto;
+                width: 100%;
+                float: left;
             }
+            
+            .popular-box {
+                max-width: 325px;
+                height: 325px;
+                width: 25%;
+                position: relative;
+                float: left;
+            }
+            
+            .pic1 {
+                background: url(http://i.cdn.turner.com/si/multimedia/photo_gallery/0904/surfing.kelly.slater/images/kelly-slater-tahiti-2004.jpg)
+                no-repeat center center;
+            }
+            
+            .pic2 {
+                background: url(http://food.mu-dev.lhblogs.com/files/flight-of-beers.jpg?26ca06)
+                no-repeat center center;
+            }
+            
+            .pic3 {
+                background: url(http://wac.450f.edgecastcdn.net/80450F/kyssfm.com/files/2014/01/Lounging-on-the-Beach-Credit-iStock-1671673501.jpg?w=600&h=0&zc=1&s=0&a=t&q=89)
+                no-repeat center center;
+            }
+            
+            .popular-pic {
+                width: 100%;
+                float: left;
+                height: 325px;
+                opacity: 0.5;
+            }
+            
+            .popular-text {
+                position: absolute;
+                
+            }
+            
+            /*********************
+            Footer
+            *********************/
+          
+            
+            
 
 
 

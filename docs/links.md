@@ -5,3 +5,9 @@ https://s3.amazonaws.com/uploads.hipchat.com/31349/1589694/7POGoXPeRePoqLx/Scree
 http://www.sketchingwithcss.com/samplechapter/
 http://css-tricks.com/snippets/css/a-guide-to-flexbox/
 https://umaar.github.io/css-flexbox-demo/
+
+#### ipsums
+*Pictures*
+http://lorempixel.com/
+*Text*
+http://meettheipsums.com/
