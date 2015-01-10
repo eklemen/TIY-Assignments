@@ -225,6 +225,7 @@ textarea {
                 max-width: 325px;
                 height: 325px;
                 width: 25%;
+                min-width: 165px;
                 position: relative;
                 float: left;
             }
@@ -258,12 +259,28 @@ textarea {
             
             .popular-text {
                 position: absolute;
-                
+                size: 100%;
+                bottom: 5px;
             }
             
             /*********************
             Footer
             *********************/
+            
+            footer {
+                max-width: 95%;
+                margin: 0 auto;
+            }
+            
+            .popular-pic:hover {
+                opacity: 1;
+            }
+            
+            footer section h3 {
+                text-align: center;
+                border-bottom: 2px solid #ddd;
+                font-size: 3em;
+            }
           
             
             
