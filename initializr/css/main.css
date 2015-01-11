@@ -61,12 +61,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
- /*           .footer-pics {
-                display: -webkit-flex;
-                -webkit-justify-content: center;
-                -webkit-align-items: flex-end;
-            }
-*/            
             /****************
             Header
             ****************/
@@ -99,6 +93,7 @@ textarea {
             
             .blog {
                 float: left;
+                margin-top: 5px;
             }
             
             h1 {
@@ -110,6 +105,7 @@ textarea {
                 margin: 0 auto;
                 width: 100%;
                 color: white;
+                letter-spacing: 5px;
                 top: 180px;
                 display: block;
                 text-shadow: 2px 2px #000;
@@ -209,7 +205,7 @@ textarea {
             
             .author-side {
                 margin-left: auto;
-                margin-right: 15%;
+                margin-right: 20%;
                 height: 120px;
                 width: 120px;
                
@@ -235,6 +231,9 @@ textarea {
                 margin: 20px 0 0 60px;
                 height: 300px;
                 width: 270px;
+            }
+            
+            share {
                 
             }
             
