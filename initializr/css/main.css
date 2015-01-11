@@ -170,9 +170,10 @@ textarea {
             }
             
             article h2 {
-                font-size: 2em;
+                font-size: 48px;
                 font-family: 'Oswald', sans-serif;
                 color: #004564;
+                font-weight: 400;
             }
             
             .author-byline {
