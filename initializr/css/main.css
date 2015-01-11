@@ -97,7 +97,13 @@ textarea {
                 height: 400px;
             }
             
+            .blog {
+                float: left;
+            }
+            
             h1 {
+                
+                font-family: 'Oswald';
                 position: absolute;
                 text-align: center;
                 font-size: 3em;
@@ -132,7 +138,7 @@ textarea {
             
             .about-search {
                 float: right;
-                margin: 35px 20px 0 -20px;
+                margin: 35px 50px;
             }
             
             #logo {
@@ -143,6 +149,7 @@ textarea {
             
             li {
                 display: inline;
+                color: #000;
             }
             
             /*******************
@@ -153,6 +160,7 @@ textarea {
                 width: 80%;
                 margin: 0 auto;
                 max-width: 960px;
+                font-family: 'Open Sans', sans-serif;
             }
             
             /********************
@@ -162,11 +170,13 @@ textarea {
                 width: 65%;
                 margin: 0 auto 0 auto;
                 float: left;
+                
             }
             
             article h2 {
                 font-size: 2em;
                 font-family: 'Oswald', sans-serif;
+                color: #004564;
             }
             
             .author-byline {
@@ -231,6 +241,7 @@ textarea {
             blockquote {
                 font-size: 25pt;
                 color: #4282C8;
+                font-family: 'Open Sans', sans-serif;
             }
             
             /*********************
@@ -241,6 +252,11 @@ textarea {
                 margin: 0 auto;
                 width: 100%;
                 float: left;
+                font-family: 'Open Sans', sans-serif;
+            }
+            
+            #popPost-heading {
+                color: #004564;
             }
             
             .popular-box {
@@ -249,6 +265,9 @@ textarea {
                 width: 25%;
                 min-width: 165px;
                 background: #004564;
+                font-size: 24pt;
+                color: #001F2E;
+                font-weight: 900;
                 position: relative;
                 float: left;
             }
@@ -291,13 +310,17 @@ textarea {
             *********************/
             
             footer {
-                max-width: 95%;
+                width: 95%;
                 margin: 0 auto;
+                max-width: 1200px;
                 
             }
             
             .popular-pic:hover {
                 opacity: 1;
+                color: 	#D6E0FF;
+                text-shadow: 2px 2px #000;
+                
             }
             
             footer section h3 {
