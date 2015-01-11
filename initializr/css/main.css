@@ -233,8 +233,8 @@ textarea {
                 width: 270px;
             }
             
-            share {
-                
+            button:hover {
+                border: 2px #000 solid;
             }
             
             blockquote {
