@@ -73,8 +73,7 @@ textarea {
             header {
                 background-image: url(http://fs01.androidpit.info/ass/26/16/12032616-1386243187271.jpg);
                 background-repeat: no-repeat;
-                background-size: cover;
-                
+                background-size: 100% auto;
                 
             }
           
@@ -155,7 +154,7 @@ textarea {
             .container {
                 width: 80%;
                 margin: 0 auto;
-                max-width: 960px;
+                max-width: 1200px;
                 font-family: 'Open Sans', sans-serif;
             }
             
