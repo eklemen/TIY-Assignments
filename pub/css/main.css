@@ -124,23 +124,39 @@ textarea {
         max-width: 960px;
         width: 100%;
         margin: 0 auto;
+        overflow: hidden;
         
     }
 
     .timeline {
         float: right;
         top: 0;
-        margin: -20px auto 0 auto;
+        margin: 0 auto;
+        border-left: solid 15px lightblue;
+        
+    }
+    
+    li {
+        
         position: relative;
     }
     
-    .sidebar {
+    .time {
+        float: left;
+        position: absolute;
+        left: -20%;
+        top: 10%;
+        color: #000;
+    }
+    
+    /*.sidebar {
         border-left: 10px solid lightblue;
         float: right;
         height: 80%;
         margin-top: 20px;
         width: 70%;
     }
+    */
     
     ul li {
         max-width: 800px;
@@ -154,7 +170,6 @@ textarea {
     }
     
     fa fa-phone-square {
-        position: absolute;
     }
         
 
