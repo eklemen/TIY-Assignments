@@ -61,6 +61,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+    .post-box {
+        background: #62acf6;
+        color: #fff;
+    }
+
+
+
+
+/*
     .page {
         max-width: 960px;
         width: 100%;
@@ -83,7 +92,7 @@ textarea {
         width: 70%;
     }
     
-    ul > li {
+    ul li {
         max-width: 800px;
         min-width: 450px;
         top: 0;
@@ -91,13 +100,13 @@ textarea {
         background-color: #62acf6;
         color: #fff;
         list-style: none;
+        margin-left: auto;
     }
     
     fa fa-phone-square {
         position: absolute;
-        left: -40px;
     }
-    
+  */  
     
         
 
