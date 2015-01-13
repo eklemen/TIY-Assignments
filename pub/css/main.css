@@ -61,9 +61,45 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+    .page {
+        max-width: 960px;
+        width: 100%;
+        margin: 0 auto;
+        
+    }
 
-
-
+    .timeline {
+        float: right;
+        top: 0;
+        margin: -20px auto 0 auto;
+        position: relative;
+    }
+    
+    .sidebar {
+        border-left: 10px solid lightblue;
+        float: right;
+        height: 80%;
+        margin-top: 20px;
+        width: 70%;
+    }
+    
+    ul > li {
+        max-width: 800px;
+        min-width: 450px;
+        top: 0;
+        width: 100%;
+        background-color: #62acf6;
+        color: #fff;
+        list-style: none;
+    }
+    
+    fa fa-phone-square {
+        position: absolute;
+        left: -40px;
+    }
+    
+    
+        
 
 
 
