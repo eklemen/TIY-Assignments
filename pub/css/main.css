@@ -63,7 +63,7 @@ textarea {
 
   .page {
         max-width: 960px;
-        width: 100%;
+        width: 90%;
         min-width: 400px;
         margin: 0 auto;
         overflow: hidden;
@@ -87,10 +87,18 @@ textarea {
         float: left;
         position: absolute;
         left: -170px;
-        top: 10%;
+        top: 20px;
         color: #000;
         font-size: 24pt;
         color: #6cbfee;
+        text-align: right;
+    }
+    .date {
+        font-size: 12px;
+        color: #bdd0db;
+        padding: 0;
+        margin: 0;
+        text-align: right;
     }
     
     ol {
@@ -129,11 +137,12 @@ textarea {
         line-height: 55px;
         border-radius: 100%;
         position: absolute;
-        left: -70px;
+        left: -77px;
         background-color: #62acf6;
         display: inline-block;
         text-align: center;
         vertical-align: baseline;
+        border: 8px solid lightblue;
     }
 
     
@@ -142,7 +151,7 @@ textarea {
     }
     
     p {
-        padding: 20px;
+        padding: 0 20px 20px 20px;
     }
     
     fa fa-phone-square {
