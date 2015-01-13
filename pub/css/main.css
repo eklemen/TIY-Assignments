@@ -149,6 +149,10 @@ textarea {
         color: #000;
     }
     
+    time {
+        font-size: 24pt;
+    }
+    
     /*.sidebar {
         border-left: 10px solid lightblue;
         float: right;
@@ -169,10 +173,21 @@ textarea {
         margin-left: auto;
     }
     
+    .bubble {
+        height: 45px;
+        width: 45px;
+        border-radius: 100%;
+        position: absolute;
+        left: -8.5%;
+        padding-top: 10px;
+        background-color: #62acf6;
+        display: inline-block;
+        text-align: center;
+        vertical-align: baseline;
+    }
+    
     fa fa-phone-square {
     }
-        
-
 
 
 
