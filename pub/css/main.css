@@ -60,10 +60,36 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+    
+    
+    .container {
+        max-width: 1080px;
+        width: 90%;
+        min-width: 500px;
+        overflow: hidden;
+        margin-left: auto;
+        margin-top: 40px;
+        border-left: solid 10px lightblue;
+        float: right;
+        
+        
+    }
+    
 
     .post-box {
         background: #62acf6;
         color: #fff;
+        width: 70%;
+        margin: 0 10% 20px 20px;
+    }
+    
+    
+    hr {
+        margin-top: 0px;
+    }
+    
+    h3 {
+        margin-bottom: 2px;
     }
 
 
