@@ -123,6 +123,7 @@ textarea {
     .page {
         max-width: 960px;
         width: 100%;
+        min-width: 400px;
         margin: 0 auto;
         overflow: hidden;
         
@@ -171,6 +172,8 @@ textarea {
         color: #fff;
         list-style: none;
         margin-left: auto;
+        border-radius: 8px;
+        
     }
     
     .bubble {
@@ -184,6 +187,14 @@ textarea {
         display: inline-block;
         text-align: center;
         vertical-align: baseline;
+    }
+    
+    h3 {
+        padding-left: 20px;
+    }
+    
+    p {
+        padding: 20px;
     }
     
     fa fa-phone-square {
