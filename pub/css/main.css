@@ -279,7 +279,7 @@ big {
    Media Queries
    ========================================================================== */
 
-/*@media only screen and (max-width: 965px) {
+/*@media screen (min-width: 450px) and (max-width: 700px) {
         .page {
             overflow: visible;
             max-width: 77%;
@@ -298,7 +298,7 @@ big {
         }
 }
 
-@media only screen and (max-width: 619px) {
+@media only screen and (max-width: 449px) {
 
     .page {
         max-width: 25%;
