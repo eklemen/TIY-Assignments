@@ -81,12 +81,36 @@ textarea {
     display: inline;
 }
 
+
 .page time {
 }
 .page time p {
+    margin-top: 0;
+    margin-bottom: 1ex;
 }
+
+small {
+    margin-bottom: 0;
+    color: #999;
+}
+
+big {
+    font-size: 2em;
+    color: lightblue;
+}
+
 .page .bubble {
     position: absolute;
+    right: 0;
+    top: 1em;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 58px;
+    border: 7px solid blue;
+    border-radius: 50%;
+    background-color: lightblue;
+    
 }
 .page .fa {
 }
@@ -101,13 +125,7 @@ textarea {
     color: #fff;
 }
 
-.timeline li::before {
-    width: 0; 
-	height: 0; 
-	border-left: 10px solid transparent;
-	border-right: 10px solid transparent;
-	border-bottom: 10px solid lightblue;
-    position: absolute;
+.timeline li
 }
 
 .page h3 {
