@@ -59,16 +59,73 @@ textarea {
 
 /* ==========================================================================
    Author's custom styles
-   ========================================================================== */
+   ==========================================================================*/ 
+
+
+.page {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.timeline {
+    list-style: none;
+}
+
+
+.page li {
+    position: relative;
+}
+
+.left-side {
+    position: relative;
+    display: inline;
+}
+
+.page time {
+}
+.page time p {
+}
+.page .bubble {
+    position: absolute;
+}
+.page .fa {
+}
+.page .fa.page .fa.page article {
+}
+.page article{
+    background-color: lightblue;
+    padding: 2ex;
+    box-sizing: border-box;
+    border-radius: 1ex;
+    position: relative;
+    color: #fff;
+}
+
+.timeline li::before {
+    width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid lightblue;
+    position: absolute;
+}
+
+.page h3 {
+    border-bottom: 1px solid #fff;
+}
+
+
+
+
+
+*/
 
 /*************************
          HEADER
 *************************/
-  .page {
-        max-width: 960px;
+/*  .page {
         width: 90%;
         margin: 0 auto;
-        overflow: hidden;
     }
 
     header {
@@ -104,7 +161,7 @@ textarea {
         display: inline;
         padding: 1ex;
         border: 7px solid #6cbfee;
-        border-radius: 100%;
+        border-radius: 50%;
         float: left;
         line-height: 1em;
     }
@@ -112,11 +169,10 @@ textarea {
 /*************************
          Timeline Posts
 *************************/
-
+/*
     .timeline {
         float: right;
         top: 0;
-        margin: 0 auto;
         border-left: solid 15px lightblue;
         
     }
@@ -127,17 +183,17 @@ textarea {
     }
 
     ol li:first-child {
-        margin-top: -20px;
+        margin-top: -2em;
     }
 
     ol li:last-child {
-        margin-bottom: -20px
+        margin-bottom: -2ex;
     }
 
 /*************************
          SIDE LINE
 *************************/
-    
+ /*   
     .time {
         float: left;
         position: absolute;
@@ -205,7 +261,7 @@ textarea {
    Media Queries
    ========================================================================== */
 
-@media only screen and (max-width: 965px) {
+/*@media only screen and (max-width: 965px) {
         .page {
             overflow: visible;
             max-width: 77%;
@@ -259,7 +315,7 @@ textarea {
         margin-bottom: 70px;
 }
 
-}
+}*/
     
 
 @media print,
