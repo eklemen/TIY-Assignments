@@ -67,6 +67,7 @@ textarea {
   .page {
         max-width: 960px;
         width: 90%;
+        min-width: 400px;
         margin: 0 auto;
         overflow: hidden;
     }
@@ -87,7 +88,7 @@ textarea {
 
     header > p {
         letter-spacing: 8px;
-        margin: 20px auto 0 auto;
+        margin-bottom: 0;
     }
 
     header > nav {
@@ -208,11 +209,11 @@ textarea {
 @media only screen and (max-width: 965px) {
         .page {
             overflow: visible;
-            width: 80%;
+            max-width: 77%;
         }
     
         .timeline {
-            max-width: 80%;
+            max-width: 80%
         }
     
         .time {
@@ -224,50 +225,38 @@ textarea {
         }
 }
 
-@media only screen and (max-width: 615px) {
+@media only screen and (max-width: 619px) {
+
     .page {
-        width: 100%;
-        
+        max-width: 25%;
     }
     
-    header > p {
-        text-align: center;
-    }
-    
-    h1 {
-        margin: 0 auto;
-    }
-    
-    .timeline {
+   .timeline {
         max-width: 350px;
         min-width: 250px;
         width: 80%;
         border-left: 0;
-    }
-    
+}
     .time {
         display: inline-block;
         left: 0;
         top: -60px;
-    }
-    
+}
+
     .bubble {
         display: block;
         float: right;
         right: 4px;
         left: auto;
-    }
-    
+        top: -70px;
+}
+
     .articles {
         margin-bottom: 70px;
-    }
-    
-    ol li:first-child {
-        margin-top: 80px;
-    }
-
+}
 
 }
+    
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
