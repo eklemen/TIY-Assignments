@@ -67,7 +67,6 @@ textarea {
   .page {
         max-width: 960px;
         width: 90%;
-        min-width: 400px;
         margin: 0 auto;
         overflow: hidden;
     }
@@ -83,11 +82,11 @@ textarea {
         margin-bottom: 5%;
         margin-top: 0px;
         font-weight: 400;
-        letter-spacing: 1px;
+        letter-spacing: 0.2ex;
     }
 
     header > p {
-        letter-spacing: 8px;
+        letter-spacing: 1ex;
         margin-bottom: 0;
     }
 
@@ -98,16 +97,16 @@ textarea {
     .top-nav {
         color: inherit;
         display: inline;
-        margin: 5px;
-        right: 20px;
+        margin: 1ex;
+        right: 2em;
         height: 15px;
         width: 15px;
         display: inline;
-        padding: 8px;
+        padding: 1ex;
         border: 7px solid #6cbfee;
         border-radius: 100%;
         float: left;
-        line-height: 10px;
+        line-height: 1em;
     }
 
 /*************************
@@ -178,7 +177,7 @@ textarea {
         height: 45px;
         width: 45px;
         line-height: 55px;
-        border-radius: 100%;
+        border-radius: 50%;
         position: absolute;
         left: -77px;
         background-color: #62acf6;
@@ -194,7 +193,7 @@ textarea {
     }
     
     .articles {
-        padding: 0 20px 20px 20px;
+        padding: 2em;
     }
 
 
