@@ -67,7 +67,6 @@ textarea {
   .page {
         max-width: 960px;
         width: 90%;
-        min-width: 400px;
         margin: 0 auto;
         overflow: hidden;
     }
