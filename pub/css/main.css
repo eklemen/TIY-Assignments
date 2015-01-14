@@ -67,7 +67,42 @@ textarea {
         min-width: 400px;
         margin: 0 auto;
         overflow: hidden;
+    }
+
+    header {
+        color: #6cbfee;
+    }
+
+    h1 {
+        float: left;
+        display: inline-block;
+    }
+
+    header > p {
         
+    }
+
+    header > nav {
+        float: right;
+    }
+    
+    header > fa {
+        
+    }
+
+    .top-nav {
+        color: inherit;
+        display: inline;
+        margin: 5px;
+        right: 20px;
+        height: 15px;
+        width: 15px;
+        display: inline;
+        padding: 8px;
+        border: 7px solid #6cbfee;
+        border-radius: 100%;
+        float: left;
+        line-height: 10px;
     }
 
     .timeline {
@@ -81,6 +116,10 @@ textarea {
     li {
         
         position: relative;
+    }
+
+    ol li:first-child {
+        margin-top: -20px;
     }
     
     .time {
