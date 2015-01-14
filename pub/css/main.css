@@ -61,6 +61,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*************************
+         HEADER
+*************************/
   .page {
         max-width: 960px;
         width: 90%;
@@ -75,11 +78,17 @@ textarea {
 
     h1 {
         float: left;
-        display: inline-block;
+        display: inline;
+        margin-right: auto;
+        margin-bottom: 5%;
+        margin-top: 0px;
+        font-weight: 400;
+        letter-spacing: 1px;
     }
 
     header > p {
-        
+        letter-spacing: 8px;
+        margin-bottom: 0;
     }
 
     header > nav {
@@ -105,6 +114,10 @@ textarea {
         line-height: 10px;
     }
 
+/*************************
+         Timeline Posts
+*************************/
+
     .timeline {
         float: right;
         top: 0;
@@ -121,6 +134,14 @@ textarea {
     ol li:first-child {
         margin-top: -20px;
     }
+
+    ol li:last-child {
+        margin-bottom: -20px
+    }
+
+/*************************
+         SIDE LINE
+*************************/
     
     .time {
         float: left;
@@ -143,19 +164,6 @@ textarea {
     ol {
         list-style: none;
     }
-
-    time {
-        
-    }
-    
-    /*.sidebar {
-        border-left: 10px solid lightblue;
-        float: right;
-        height: 80%;
-        margin-top: 20px;
-        width: 70%;
-    }
-    */
     
     ol li {
         max-width: 700px;
@@ -189,11 +197,8 @@ textarea {
         padding-left: 20px;
     }
     
-    p {
+    .articles {
         padding: 0 20px 20px 20px;
-    }
-    
-    fa fa-phone-square {
     }
 
 
@@ -205,7 +210,24 @@ textarea {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 965px) {
+        .page {
+            overflow: visible;
+            max-width: 550px;
+        }
+    
+        .time {
+            left: -140px;
+        }
+    
+        time {
+            font-size: 20px;
+        }
+}
+
+@media only screen and (max-width: 965px) {
+
+
 
 }
 
