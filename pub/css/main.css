@@ -231,11 +231,16 @@ textarea {
         max-width: 25%;
     }
     
+    header {
+    
+    }
+    
    .timeline {
         max-width: 350px;
         min-width: 250px;
         width: 80%;
         border-left: 0;
+       float: none;
 }
     .time {
         display: inline-block;
