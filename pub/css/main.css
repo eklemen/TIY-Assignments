@@ -67,6 +67,7 @@ textarea {
   .page {
         max-width: 960px;
         width: 90%;
+        min-width: 400px;
         margin: 0 auto;
         overflow: hidden;
     }
@@ -247,7 +248,7 @@ textarea {
         float: right;
         right: 4px;
         left: auto;
-        top: -70px;
+        top: -75px;
 }
 
     .articles {
