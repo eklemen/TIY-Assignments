@@ -67,8 +67,35 @@ textarea {
     margin: 0 auto;
 }
 
+.title {
+    text-align: center;
+    color: steelblue;
+    letter-spacing: 0.5ex;
+}
+
+header > nav {
+    text-align: center;
+}
+
+.top-nav {
+    margin: 0.5ex;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    padding: 1ex;
+    line-height: 58px;
+    border: 6px solid steelblue;
+    border-radius: 50%;
+    background-color: lightblue;
+}
+
+.fa {
+    color: #fff;
+}
+
 .timeline {
     list-style: none;
+    padding-left: 0;
 }
 
 
@@ -81,22 +108,17 @@ textarea {
     display: inline;
 }
 
-
-.page time {
-}
-.page time p {
-    margin-top: 0;
-    margin-bottom: 1ex;
-}
-
-small {
-    margin-bottom: 0;
+.date {
     color: #999;
+    margin-top: 2em;
+    margin-bottom: 0;
 }
 
-big {
+.clock {
     font-size: 2em;
     color: lightblue;
+    margin-top: 0;
+    margin-bottom: 0.8ex;
 }
 
 .page .bubble {
@@ -107,7 +129,7 @@ big {
     width: 45px;
     text-align: center;
     line-height: 58px;
-    border: 7px solid blue;
+    border: 7px solid steelblue;
     border-radius: 50%;
     background-color: lightblue;
     
