@@ -64,6 +64,7 @@ textarea {
 
 .page {
     width: 80%;
+    min-width: 415px;
     margin: 0 auto;
 }
 
@@ -134,10 +135,7 @@ header > nav {
     background-color: lightblue;
     
 }
-.page .fa {
-}
-.page .fa.page .fa.page article {
-}
+
 .page article{
     background-color: lightblue;
     padding: 2ex;
@@ -147,9 +145,6 @@ header > nav {
     color: #fff;
 }
 
-.timeline li
-}
-
 .page h3 {
     border-bottom: 1px solid #fff;
 }
@@ -157,8 +152,43 @@ header > nav {
 
 
 
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
 
-*/
+@media screen and (min-width: 650px) {
+
+.page {
+    min-width: 410px;
+}
+    
+.timeline {
+    padding-left: 3em;
+    border-left: 15px solid lightblue;
+}
+    
+.left-side {
+    display: inline-block;
+    float: left;
+    margin-left: -10em;
+}
+
+.bubble {
+    top: 0;
+    left: -5.3em;
+}
+    
+    
+}
+
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
 
 /*************************
          HEADER
@@ -295,75 +325,6 @@ header > nav {
 
 
 
-
-
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-
-/*@media screen (min-width: 450px) and (max-width: 700px) {
-        .page {
-            overflow: visible;
-            max-width: 77%;
-        }
-    
-        .timeline {
-            max-width: 80%
-        }
-    
-        .time {
-            left: -140px;
-        }
-    
-        time {
-            font-size: 20px;
-        }
-}
-
-@media only screen and (max-width: 449px) {
-
-    .page {
-        max-width: 25%;
-    }
-    
-    header {
-    
-    }
-    
-   .timeline {
-        max-width: 350px;
-        min-width: 250px;
-        width: 80%;
-        border-left: 0;
-       float: none;
-}
-    .time {
-        display: inline-block;
-        left: 0;
-        top: -60px;
-}
-
-    .bubble {
-        display: block;
-        float: right;
-        right: 4px;
-        left: auto;
-        top: -75px;
-}
-
-    .articles {
-        margin-bottom: 70px;
-}
-
-}*/
-    
-
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-
-}
 
 /* ==========================================================================
    Helper classes
