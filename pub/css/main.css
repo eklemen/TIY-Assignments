@@ -135,9 +135,9 @@ header > nav {
     width: 45px;
     text-align: center;
     line-height: 58px;
-    border: 7px solid steelblue;
+    border: 7px solid lightblue;
     border-radius: 50%;
-    background-color: lightblue;
+    background-color: steelblue;
     
 }
 
@@ -186,7 +186,7 @@ header > nav {
 
 .bubble {
     margin-top: -1.5em;
-    left: -4.9em;
+    left: -4.8em;
 }
     
 
@@ -199,12 +199,19 @@ ol > li {
 @media screen and (min-width: 800px) {
     
 header {
+    position: relative;
+}
     
+.title {
+    position: absolute;
+}
     
-}    
+header > nav {
+    text-align: right;
+}
     
 .timeline {
-    max-width: 700px;
+    max-width: 800px;
 }
     
     
