@@ -61,6 +61,7 @@ textarea {
    Author's custom styles
    ==========================================================================*/ 
 
+/*******HEADER*******/
 
 .page {
     width: 80%;
@@ -94,6 +95,8 @@ header > nav {
     color: #fff;
 }
 
+/*******MAIN*******/
+
 .timeline {
     list-style: none;
     padding-left: 0;
@@ -103,6 +106,8 @@ header > nav {
 .page li {
     position: relative;
 }
+
+/*******TIMELINE*******/
 
 .left-side {
     position: relative;
@@ -156,6 +161,8 @@ header > nav {
    Media Queries
    ========================================================================== */
 
+    /*******MEDIUM BREAK*******/
+
 @media screen and (min-width: 650px) {
 
 .page {
@@ -163,24 +170,52 @@ header > nav {
 }
     
 .timeline {
-    padding-left: 3em;
+    padding-left: 1ex;
     border-left: 15px solid lightblue;
 }
     
 .left-side {
     display: inline-block;
     float: left;
-    margin-left: -10em;
+    margin-left: -8em;
+}
+
+.clock {
+    font-size: 1.3em;
 }
 
 .bubble {
-    top: 0;
-    left: -5.3em;
+    margin-top: -1.5em;
+    left: -4.9em;
 }
     
-    
-}
 
+ol > li {
+    margin: 3em 1em 3em 2em;
+}    
+    
+    /*******LARGE BREAK*******/
+    
+@media screen and (min-width: 800px) {
+    
+header {
+    
+    
+}    
+    
+.timeline {
+    max-width: 700px;
+}
+    
+    
+    
+    
+}
+    
+    
+    
+    
+    
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
