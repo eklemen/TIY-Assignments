@@ -93,23 +93,50 @@ h3 {
 
 .date {
     display: block;
-    margin-left: 4em;
     color: #999;
 }
 
 .main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#article-link {
+    color: #999;
+}
+
+blockquote {
+    border-left: solid #999 2px;
+    padding-left: 1em;
+    margin-left: 0;
+    font-size: 2em;
+    color: #004f91;
+}
+
+.share a {
+    height: 1.2em;
+    width: 1.2em;
+    text-decoration: none;
+    color: white;
+    background-color: #162876;
+    text-align: center;
+    line-height: 2.2ex;
+    margin: 0 0.5ex 3em;
+}
+
+.fa-share-square-o {
+    background-color: blue;
     
 }
 
-
-
-
-
-
-
-
-
-
+aside {
+    text-align: center;
+}
+.author-large {
+    height: 8em;
+    width: 8em;
+    border-radius: 50%;
+}
 
 /* ==========================================================================
    Media Queries
