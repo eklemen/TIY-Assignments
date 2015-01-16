@@ -122,6 +122,7 @@ blockquote {
     text-align: center;
     line-height: 2.2ex;
     margin: 0 0.5ex 3em;
+    border-radius: 0.3ex;
 }
 
 .fa-share-square-o {
@@ -138,6 +139,28 @@ aside {
     border-radius: 50%;
 }
 
+section > h4 {
+    margin-bottom: -0.5ex;
+}
+
+.author-links {
+    text-decoration: none;
+    color: #999;
+    font-size: 90%;
+    padding: 1ex 1ex;
+}
+
+.advertise {
+    height: 30ex;
+    width: 20em;
+    margin: 3ex auto -2ex auto;    
+}
+
+.about-ad > p {
+    text-align: right;
+    color: #999;
+    padding-right: 1.5em;
+}
 /* ==========================================================================
    Media Queries
    ========================================================================== */
