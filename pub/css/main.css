@@ -132,6 +132,8 @@ blockquote {
 
 aside {
     text-align: center;
+    margin: 0 auto;
+    width: 23em;
 }
 .author-large {
     height: 8em;
@@ -150,17 +152,55 @@ section > h4 {
     padding: 1ex 1ex;
 }
 
+.about-ad {
+}
 .advertise {
     height: 30ex;
     width: 20em;
-    margin: 3ex auto -2ex auto;    
+    margin: 3ex auto 0 auto;
+    display: block;
 }
 
-.about-ad > p {
+.about-ad figcaption{
     text-align: right;
-    color: #999;
     padding-right: 1.5em;
 }
+
+.about-ad figcaption a {
+    color: #999;
+}
+
+.pop-post {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pop-pic {
+    position: relative;
+    display: block;
+    padding-right: 25%;
+    padding-bottom: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.pic1 {
+    background-image: url("http://stwww.surfermag.com/wp-content/uploads/2010/11/wpid-1kellyslater6772.jpg");
+}
+
+.pic2 {
+    background-image: url(http://food.mu-dev.lhblogs.com/files/flight-of-beers.jpg?26ca06)
+}
+
+.pic3 {
+    background-image: url(http://wac.450f.edgecastcdn.net/80450F/kyssfm.com/files/2014/01/Lounging-on-the-Beach-Credit-iStock-1671673501.jpg?w=600&h=0&zc=1&s=0&a=t&q=89);
+}
+
+.pic4 {
+    background-image: url(http://theplanetd.com/images/Croatia-Sea-kayaking-6-XL.jpg);
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
