@@ -219,7 +219,7 @@ section > h4 {
 
 .pop-posts {
     clear: both;
-    width: 100%
+    width: 100%;
     
 }    
 .pop-pic {
@@ -235,8 +235,38 @@ section > h4 {
 
 @media only screen and (min-width: 770px) {
     
-    .seach {
+    header {
+        height: 18em;
         
+    }
+    .top-container {
+        max-width: 60em;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    
+    .search {
+        position: absolute;
+        right: 2em;
+        top: 2em;
+        z-index: 1000;
+    }
+    
+    .logo {
+        position: absolute;
+        top: 2em;
+        left: 2em;
+    }
+    
+    h1 {
+        display: block;
+        margin: auto auto;
+        
+    }
+    
+    h2 {
     }
     
     .main {
@@ -256,6 +286,10 @@ section > h4 {
         right: 0;
         max-width: 33%;
         float: right;
+    }
+    
+    .pop-posts {
+        max-width: 980px;
     }
     
 }
