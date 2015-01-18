@@ -85,6 +85,7 @@ h2 {
     margin: 0;
 }
 
+
 h3 {
     max-width: 8em;
     display: block;
@@ -266,9 +267,30 @@ footer {
 /* TABLET BREAK */
 @media only screen and (min-width: 520px) {
 
+header {
+    height: 18em;
+
+}
+
 h1 {
     letter-spacing: 0.5ex;
     font-size: 2.2em;
+    clear: both;
+}
+
+h2 {
+    clear:both;
+}    
+        
+    
+.search {
+    float: right;
+    margin: 2em 2em;
+}
+
+.logo {
+    float: left;
+    margin: 2em 2em;
 }    
 .pop-posts {
     clear: both;
@@ -292,25 +314,12 @@ footer {
 
 @media only screen and (min-width: 770px) {
     
-    header {
-        height: 18em;
-        
-    }
+
     .top-container {
         max-width: 65em;
         overflow: hidden;
         position: relative;
         margin: 0 auto;
-    }
-    
-    .search {
-        float: right;
-        margin: 2em 2em;
-    }
-    
-    .logo {
-        float: left;
-        margin: 2em 2em;
     }
     
     h1 {
@@ -405,10 +414,7 @@ footer {
     height: 150%;
 }
 
-.hidden {
-    display: none !important;
-    visibility: hidden;
-}
+
 
 .visuallyhidden {
     border: 0;
