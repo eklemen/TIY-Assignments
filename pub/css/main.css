@@ -60,7 +60,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-    
+ 
+/* TOP SECTION / HEADER */
+
 header {
     text-align: center;
     background-image: url("http://images.sundog-soft.com/sds/wp-content/gallery/triton/rough-best.jpg");
@@ -72,6 +74,7 @@ header {
 h1 {
     color: white;
     margin: 0 auto;
+    text-shadow: 2px 2px #000;
 }
 
 h2 {
@@ -90,6 +93,8 @@ h3 {
     font-weight: 400;
     margin-bottom: 0;
 }
+
+/* MAIN ARTICLE SECTION*/
 
 .date {
     display: block;
@@ -129,6 +134,8 @@ blockquote {
     background-color: blue;
     
 }
+
+/* SIDE COLUMN */
 
 aside {
     text-align: center;
@@ -170,23 +177,25 @@ section > h4 {
     color: #999;
 }
 
-.pop-post {
+/* POPULAR POST PICTURES */
+
+.pop-posts {
     width: 90%;
     margin: 0 auto;
 }
 
 .pop-pic {
     position: relative;
-    display: block;
-    padding-right: 25%;
-    padding-bottom: 25%;
+    display:block;
+    padding-right: 21.5%;
+    padding-bottom: 21.5%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
 .pic1 {
-    background-image: url("http://stwww.surfermag.com/wp-content/uploads/2010/11/wpid-1kellyslater6772.jpg");
+    background-image: url(http://stwww.surfermag.com/wp-content/uploads/2010/11/wpid-1kellyslater6772.jpg);
 }
 
 .pic2 {
@@ -205,8 +214,50 @@ section > h4 {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+/* TABLET BREAK */
+@media only screen and (min-width: 520px) {
 
+.pop-posts {
+    clear: both;
+    width: 100%
+    
+}    
+.pop-pic {
+    max-width: 1em;
+    height: 1em;
+    width: 25%;
+    float: left;
+    }
+
+}
+
+/* LARGE BREAK */
+
+@media only screen and (min-width: 770px) {
+    
+    .seach {
+        
+    }
+    
+    .main {
+        width: 90%;
+        max-width: 48em;
+        position: relative;
+    }
+    
+    article {
+        max-width: 67%;
+        float: left;
+    }
+    
+    aside {
+        position: absolute;
+        top: 5em;
+        right: 0;
+        max-width: 33%;
+        float: right;
+    }
+    
 }
 
 @media print,
