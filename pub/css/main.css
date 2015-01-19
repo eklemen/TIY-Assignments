@@ -187,21 +187,19 @@ section > h4 {
 /* POPULAR POST PICTURES */
 
 .pop-posts {
-    max-width: 1000px;
-    width: 100%;
-    margin: 4em auto;
     clear: both;
     overflow: hidden;
     background-color: #112740;
-    
+    position: relative;
+    width; 100%;
 }
 
 .pop-pic {
     position: relative;
     display:block;
     margin: 0 auto;
-    padding-right: 21.5%;
-    padding-bottom: 21.5%;
+    padding-right: 25%;
+    padding-bottom: 25%;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.5;
@@ -209,6 +207,8 @@ section > h4 {
     font-family: 'Oswald', sans-serif;
     color: #112740;
     text-decoration: none;
+    box-sizing: border-box;
+    
 }
 
 .pop-pic:hover {
