@@ -65,9 +65,10 @@ textarea {
 
 header {
     text-align: center;
-    background-image: url("http://images.sundog-soft.com/sds/wp-content/gallery/triton/rough-best.jpg");
+    background-image: url("http://loneswimmer.files.wordpress.com/2012/05/low_force_3_guillamene_ne.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     height: 10em;
     font-family: 'Oswald', sans-serif;
     position: relative;
@@ -89,7 +90,6 @@ h2 {
 h3 {
     max-width: 8em;
     display: block;
-    letter-spacing: -0.1ex;
     font-size: 2.6em;
     margin-right: 2em;
     margin-left: 0.5ex;
@@ -99,6 +99,21 @@ h3 {
     font-family: 'Oswald', sans-serif;
 }
 
+.search a {
+    text-decoration: none;
+    color: black;
+    padding-right: 0.8ex;
+}
+
+.logo img {
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+}
+
+.hidden {
+    display: none;
+}
 /* MAIN ARTICLE SECTION*/
 
 .date {
@@ -292,6 +307,11 @@ h2 {
     float: left;
     margin: 2em 2em;
 }    
+    
+.hidden {
+    display: inline;
+}
+    
 .pop-posts {
     clear: both;
     width: 100%;
