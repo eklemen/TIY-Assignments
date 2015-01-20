@@ -97,7 +97,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.container {
+    max-width: 1350px;
+    width: 100%;
+}
 
+.box {
+    display: inline-block;
+    float: left;
+    width: 10%;
+    border: 1px solid black;
+    margin: 0;
+}
 
 
 
