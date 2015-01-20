@@ -99,18 +99,49 @@ textarea {
 
 .container {
     max-width: 1350px;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .box {
     display: inline-block;
     float: left;
     width: 10%;
+    padding-bottom: 10%;
     border: 1px solid black;
     margin: 0;
+    position: relative;
+}
+
+.box:nth-child(2n+10){
+    background-color: black;
+    color: white;
+}
+
+.box:nth-child(10) {
+    background-color: white;
+    color: black;
+}
+
+.box:nth-child(28) {
+    background-color: white;
+    color: black;
+}
+
+.box:nth-child(46) {
+    background-color: white;
+    color: black;
+}
+
+.box:nth-child(64) {
+    background-color: white;
+    color: black;
 }
 
 
+p {
+    position: absolute;
+}
 
 
 
