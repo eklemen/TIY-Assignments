@@ -9,7 +9,7 @@
 
 ## Primitive Data Types
 
-### [String] (https://developer.mozilla.org/en-US/docs/Glossary/String)
+### [String](https://developer.mozilla.org/en-US/docs/Glossary/String)
 
 * _symbol_: `string of letters`
 * _pronunciation_: "string"
