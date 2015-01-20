@@ -6,6 +6,7 @@
 ```javascript
 1 + 2 + 3 // 6, of course
 '1' + 2 + 3 // '123', obviously... WTF?
+```
 
 ## Primitive Data Types
 
