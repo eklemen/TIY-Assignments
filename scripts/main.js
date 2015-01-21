@@ -1,9 +1,20 @@
 var assert = require('assert');
 
-function add (a, b){
+function add(a, b) {
     return(a + b);
-    console.log(a + b);
 }
 
 
-assert(add(4, 3) == 5);
+function diff(a, b) {
+    return(a - b);
+}
+
+function prod(a, b) {
+    return(a * b);
+}
+
+function div(a, b) {
+    return(a / b);
+}
+
+console.log(("one"));
