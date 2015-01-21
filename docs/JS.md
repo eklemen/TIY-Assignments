@@ -151,6 +151,6 @@ if x is 4, then -x returns -4
 * _pronunciation_: "divided by", "over", "out of"
 * _examples_:
 ```javascript
-100 / 25 == 4
+100 / 25 == 4 
 ```
 
