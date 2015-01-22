@@ -10,16 +10,16 @@ it('should add "zero" plus "one"', function() {
 })
 */
 
-function plus(A, B){
-    if(A == 0){
-        return B;
-    } else if(B == 0) {
-        return A;
-    } else {
-        return (A + B);
+function diff (a, b) {
+    if (a == "two") {
+        return 1;
     }
 }
 
-it('should add zero to ANYTHING', function() {
-    assert.equal(plus(5, 2), 7);
+it('should add "two" and "two" giving 4', function() {
+    assert.equal(diff("two", "two"), 4);
+})
+
+it('should subtract "two" and "twenty"', function(){
+    assert.equal(diff("two", "one"), 1)
 })
