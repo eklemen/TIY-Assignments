@@ -1,5 +1,15 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
 html,
 button,
 input,
@@ -13,6 +23,12 @@ html {
     line-height: 1.4;
 }
 
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -23,6 +39,10 @@ html {
     text-shadow: none;
 }
 
+/*
+ * A better looking default horizontal rule
+ */
+
 hr {
     display: block;
     height: 1px;
@@ -32,6 +52,11 @@ hr {
     padding: 0;
 }
 
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
 audio,
 canvas,
 img,
@@ -39,15 +64,27 @@ video {
     vertical-align: middle;
 }
 
+/*
+ * Remove default fieldset styles.
+ */
+
 fieldset {
     border: 0;
     margin: 0;
     padding: 0;
 }
 
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
 textarea {
     resize: vertical;
 }
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
 
 .browsehappy {
     margin: 0.2em 0;
@@ -56,374 +93,380 @@ textarea {
     padding: 0.2em 0;
 }
 
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
- 
-/* TOP SECTION / HEADER */
 
-header {
-    text-align: center;
-    background-image: url("http://loneswimmer.files.wordpress.com/2012/05/low_force_3_guillamene_ne.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 10em;
-    font-family: 'Oswald', sans-serif;
+table {
+    width: 80%;
+}
+
+thead th {
+    border-bottom: 1px solid red;
+}
+
+tbody th {
+    border-right: 1px solid blue;
+}
+
+tbody td {
+    width: 10%;
+    padding-bottom: 10%;
+    border: 1px solid black;
     position: relative;
 }
 
-h1 {
-    color: white;
-    margin: 0 auto;
-    text-shadow: 2px 2px #000;
-    
+tbody :nth-child(even) td:nth-child(even),
+tbody :nth-child(odd) td:nth-child(odd){
+    background-color: gray;
 }
 
-h2 {
-    font-size: 1.6ex;
-    margin: 0;
-}
-
-
-h3 {
-    max-width: 8em;
-    display: block;
-    font-size: 2.6em;
-    margin-right: 2em;
-    margin-left: 0.5ex;
-    color: #004f91;
-    font-weight: 400;
-    margin-bottom: 0;
-    font-family: 'Oswald', sans-serif;
-}
-
-.search a {
-    text-decoration: none;
-    color: black;
-    padding-right: 0.8ex;
-}
-
-.logo img {
-    height: 1em;
-    width: 1em;
-    border-radius: 50%;
-}
-
-.hidden {
-    display: none;
-}
-/* MAIN ARTICLE SECTION*/
-
-.date {
-    display: block;
-    color: #999;
-}
-
-.main {
-    width: 90%;
-    margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
-}
-
-#article-link {
-    color: #999;
-}
-
-blockquote {
-    border-left: solid #999 2px;
-    padding-left: 1em;
-    margin-left: 0;
-    font-size: 2em;
-    color: #004f91;
-    font-family: 'Oswald', sans-serif;
-}
-
-.share a {
-    height: 1.2em;
-    width: 1.2em;
-    text-decoration: none;
-    color: white;
-    background-color: #162876;
-    text-align: center;
-    line-height: 2.2ex;
-    margin: 1ex -0.1ex 1.5ex 1ex;
-    border-radius: 0.3ex;
-}
-
-.fa-share-square-o {
-    background-color: blue;
-    
-}
-
-/* SIDE COLUMN */
-
-aside {
-    text-align: center;
-    margin: 0 auto;
-    width: 23em;
-}
-.author-large {
-    height: 8em;
-    width: 8em;
-    border-radius: 50%;
-}
-
-section > h4 {
-    margin-bottom: -0.5ex;
-}
-
-.author-links {
-    text-decoration: none;
-    color: #999;
-    font-size: 90%;
-    padding: 1ex 1ex;
-}
-
-.about-ad {
-}
-.advertise {
-    height: 30ex;
-    width: 20em;
-    margin: 3ex auto 0 auto;
-    display: block;
-}
-
-.about-ad figcaption{
-    text-align: right;
-    padding-right: 1.5em;
-}
-
-.about-ad figcaption a {
-    color: #999;
-}
-
-/* POPULAR POST PICTURES */
-
-.pop-posts {
-    clear: both;
-    overflow: hidden;
-    background-color: #112740;
-    position: relative;
-    width; 100%;
-}
-
-.pop-pic {
-    position: relative;
-    display:block;
-    margin: 0 auto;
-    padding-right: 25%;
-    padding-bottom: 25%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.5;
-    background-position: center center;
-    font-family: 'Oswald', sans-serif;
-    color: #112740;
-    text-decoration: none;
-    box-sizing: border-box;
-    
-}
-
-.pop-pic:hover {
-    opacity: 1;
-    color: white;
-    text-shadow: 2px 2px #000;
-}
-
-.pop-pic figcaption {
-    font-size: 2em;
+/*Kings*/
+#E1::before {
+    content: "\2654";
     position: absolute;
-    bottom: 0.2ex;
-}
-.pic1 {
-    background-image: url(http://stwww.surfermag.com/wp-content/uploads/2010/11/wpid-1kellyslater6772.jpg);
+    font-size: 2em;
 }
 
-.pic2 {
-    background-image: url(http://food.mu-dev.lhblogs.com/files/flight-of-beers.jpg?26ca06)
+#E1:hover {
+    color: red;
 }
 
-.pic3 {
-    background-image: url(http://wac.450f.edgecastcdn.net/80450F/kyssfm.com/files/2014/01/Lounging-on-the-Beach-Credit-iStock-1671673501.jpg?w=600&h=0&zc=1&s=0&a=t&q=89);
+#E8::before {
+    content: "\265A";
+    position: absolute;
+    font-size: 2em;
 }
 
-.pic4 {
-    background-image: url(http://theplanetd.com/images/Croatia-Sea-kayaking-6-XL.jpg);
+#E8:hover {
+    color: red;
 }
 
-footer {
-    background-color: #112740;
-    height: 12em;
-    text-align: center;
+/*Queens*/
+
+#D1::before {
+    content: "\2655";
+    position: absolute;
+     font-size: 2em;
 }
 
-.footer-nav {
-    margin: 0 auto;
-}
-.footer-nav a {
-    text-decoration: none;
-    color: #798C99;
+#D1:hover {
+    color: red;
 }
 
-.copyright span {
-    display: block;
-    width: 13em;
-    color: #798C99;
-    margin: 0 auto;
-    font-size: 1.5ex;
+#D8::before {
+    content: "\265B";
+    position: absolute;
+     font-size: 2em;
 }
 
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-
-/* TABLET BREAK */
-@media only screen and (min-width: 520px) {
-
-header {
-    height: 18em;
-
+#D8:hover {
+    color: red;
 }
 
-h1 {
-    letter-spacing: 0.5ex;
-    font-size: 2.2em;
-    clear: both;
+/*Bishops*/
+
+#C1::before {
+    content: "\2657";
+    position: absolute;
+     font-size: 2em;
 }
 
-h2 {
-    clear:both;
-}    
-        
-    
-.search {
-    float: right;
-    margin: 2em 2em;
+#C1:hover {
+    color: red;
 }
 
-.logo {
-    float: left;
-    margin: 2em 2em;
-}    
-    
-.hidden {
-    display: inline;
-}
-    
-.pop-posts {
-    clear: both;
-    width: 100%;
-    
-}    
-.pop-pic {
-    max-width: 1em;
-    height: 1em;
-    width: 25%;
-    float: left;
-    }
-    
-footer {
-    clear: both;
+#C8::before {
+    content: "\265D";
+    position: absolute;
+     font-size: 2em;
 }
 
+#C8:hover {
+    color: red;
 }
 
-/* LARGE BREAK */
-
-@media only screen and (min-width: 770px) {
-    
-
-    .top-container {
-        max-width: 65em;
-        overflow: hidden;
-        position: relative;
-        margin: 0 auto;
-    }
-    
-    h1 {
-        
-    }
-    
-    h2 {
-    }
-    
-    .main {
-        width: 90%;
-        max-width: 60em;
-        position: relative;
-    }
-    
-    article {
-        max-width: 67%;
-        float: left;
-    }
-    
-    aside {
-        position: absolute;
-        top: 5em;
-        right: 0;
-        max-width: 33%;
-        float: right;
-    }
-    
-    .pop-posts {
-        max-width: 1100px;
-        margin: 0 auto;
-    }
-    
-    footer {
-        height: 6em;
-    }
-    
-    .footer-box {
-        width: 90%;
-        margin: 0 auto;
-        max-width: 1100px;
-        position: relative;
-    }
-    .copyright {
-        position: absolute;
-        left: 0;
-        top: 1ex;
-    }
-    .footer-nav {
-        position: absolute;
-        right: 0;
-        top: 2em;
-    }
-    .footer-nav br {
-        display: none;
-    }
-    .copyright span {
-        display: inline;
-        width: 25em;
-        position: absolute;
-        top: 2em;
-        text-align: left;
-    }
-    .footer-logo {
-        float: left;
-    }
-    
+#F1::before {
+    content: "\2657";
+    position: absolute;
+     font-size: 2em;
 }
 
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+#F1:hover {
+    color: red;
+}
 
+#F8::before {
+    content: "\265D";
+    position: absolute;
+     font-size: 2em;
+}
+
+#F8:hover {
+    color: red;
+}
+
+/*Knights*/
+
+#B1::before {
+    content: "\2658";
+    position: absolute;
+     font-size: 2em;
+}
+
+#B1:hover {
+    color: red;
+}
+
+#B8::before {
+    content: "\265E";
+    position: absolute;
+     font-size: 2em;
+}
+
+#B8:hover {
+    color: red;
+}
+
+#G1::before {
+    content: "\2658";
+    position: absolute;
+     font-size: 2em;
+}
+
+#G1:hover {
+    color: red;
+}
+
+#G8::before {
+    content: "\265E";
+    position: absolute;
+     font-size: 2em;
+}
+
+#G8:hover {
+    color: red;
+}
+
+/*Rooks*/
+
+#A1::before {
+    content: "\2656";
+    position: absolute;
+     font-size: 2em;
+}
+
+#A1:hover {
+    color: red;
+}
+
+#A8::before {
+    content: "\265C";
+    position: absolute;
+     font-size: 2em;
+}
+
+#A8:hover {
+    color: red;
+}
+
+#H1::before {
+    content: "\2656";
+    position: absolute;
+     font-size: 2em;
+}
+
+#H1:hover {
+    color: red;
+}
+
+#H8::before {
+    content: "\265C";
+    position: absolute;
+     font-size: 2em;
+}
+
+#H8:hover {
+    color: red;
+}
+
+/*Pawns white*/
+
+#H2::before {
+    content: "\2659";
+    position: absolute;
+     font-size: 2em;
+}
+
+#H2:hover {
+    color: red;
+}
+
+#G2::before {
+    content: "\2659";
+    position: absolute;
+     font-size: 2em;
+}
+
+#G2:hover {
+    color: red;
+}
+
+#F2::before {
+    content: "\2659";
+    position: absolute;
+     font-size: 2em;
+}
+
+#F2:hover {
+    color: red;
+}
+
+#E2::before {
+    content: "\2659";
+    position: absolute;
+     font-size: 2em;
+}
+
+#E2:hover {
+    color: red;
+}
+
+#D2::before {
+    content: "\2659";
+    position: absolute;
+     font-size: 2em;
+}
+
+#D2:hover {
+    color: red;
+}
+
+#C2::before {
+    content: "\2659";
+    position: absolute;
+     font-size: 2em;
+}
+
+#C2:hover {
+    color: red;
+}
+
+#B2::before {
+    content: "\2659";
+    position: absolute;
+     font-size: 2em;
+}
+
+#B2:hover {
+    color: red;
+}
+
+#A2::before {
+    content: "\2659";
+    position: absolute;
+     font-size: 2em;
+}
+
+#A2:hover {
+    color: red;
+}
+
+/*Pawns black*/
+
+#A7::before {
+    content: "\265F";
+    position: absolute;
+     font-size: 2em;
+}
+
+#A7:hover {
+    color: red;
+}
+
+#B7::before {
+    content: "\265F";
+    position: absolute;
+     font-size: 2em;
+}
+
+#B7:hover {
+    color: red;
+}
+
+#C7::before {
+    content: "\265F";
+    position: absolute;
+     font-size: 2em;
+}
+
+#C7:hover {
+    color: red;
+}
+
+#D7::before {
+    content: "\265F";
+    position: absolute;
+     font-size: 2em;
+}
+
+#D7:hover {
+    color: red;
+}
+
+#E7::before {
+    content: "\265F";
+    position: absolute;
+     font-size: 2em;
+}
+
+#E7:hover {
+    color: red;
+}
+
+#F7::before {
+    content: "\265F";
+    position: absolute;
+     font-size: 2em;
+}
+
+#F7:hover {
+    color: red;
+}
+
+#G7::before {
+    content: "\265F";
+    position: absolute;
+     font-size: 2em;
+}
+
+#G7:hover {
+    color: red;
+}
+
+#H7::before {
+    content: "\265F";
+    position: absolute;
+     font-size: 2em;
+}
+
+#DH:hover {
+    color: red;
 }
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
 
+/*
+ * Image replacement
+ */
+
 .ir {
     background-color: transparent;
     border: 0;
     overflow: hidden;
+    /* IE 6/7 fallback */
     *text-indent: -9999px;
 }
 
@@ -434,7 +477,18 @@ footer {
     height: 150%;
 }
 
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
 
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
 
 .visuallyhidden {
     border: 0;
@@ -447,6 +501,11 @@ footer {
     width: 1px;
 }
 
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
     clip: auto;
@@ -457,32 +516,71 @@ footer {
     width: auto;
 }
 
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
 .invisible {
     visibility: hidden;
 }
 
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+    content: " "; /* 1 */
+    display: table; /* 2 */
 }
 
 .clearfix:after {
     clear: both;
 }
 
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
 .clearfix {
     *zoom: 1;
 }
 
 /* ==========================================================================
-   Print styles
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 
 @media print {
     * {
         background: transparent !important;
-        color: #000 !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -500,6 +598,10 @@ footer {
         content: " (" attr(title) ")";
     }
 
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
     .ir a:after,
     a[href^="javascript:"]:after,
     a[href^="#"]:after {
@@ -513,7 +615,7 @@ footer {
     }
 
     thead {
-        display: table-header-group;
+        display: table-header-group; /* h5bp.com/t */
     }
 
     tr,
