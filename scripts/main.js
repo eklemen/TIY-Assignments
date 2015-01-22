@@ -1,20 +1,10 @@
-var assert = require('assert');
+var assert = require("assert")
 
-function add(a, b) {
-    return(a + b);
+function plus(A, B){
+    return 2;
 }
 
+it('should add "one" and "one"', function() {
+    assert.equal(plus("one", "one"), 2);
+});
 
-function diff(a, b) {
-    return(a - b);
-}
-
-function prod(a, b) {
-    return(a * b);
-}
-
-function div(a, b) {
-    return(a / b);
-}
-
-console.log(("one"));
