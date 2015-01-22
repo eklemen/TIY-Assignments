@@ -234,3 +234,17 @@ for each (var iten in obj){
 }
 console.log(sum); // will log "15"
 ```
+
+### 9. [comments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements)
+
+* _examples_:
+```javascript
+var x = 5; // LOL i just used a comment in last section without seeing this is the next one
+```
+
+### 10. [throw](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements)
+
+* _examples_:
+```javascript
+throw "Error 404"
+```
