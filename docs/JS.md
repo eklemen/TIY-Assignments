@@ -1,4 +1,4 @@
-### [Operator: Addition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B))
+### [Operator: Addition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition_(.2B)
 
 * _symbol_: `+`
 * _pronunciation_: "plus", "added to"
@@ -153,4 +153,84 @@ if x is 4, then -x returns -4
 ```javascript
 100 / 25 == 4 
 ```
+## Control-flow
 
+### 1. [if](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements)
+
+* _examples_:
+```javascript
+if (x = 4) {
+    run this code
+}
+```
+
+### 2. [if else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements)
+
+* _examples_:
+```javascript
+if (x = 4) {
+    run this code
+} else {
+    run different code instead
+}
+```
+
+### 3. [return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements)
+
+* _examples_:
+```javascript
+function add (a, b) {
+    return(a + b);
+}
+```
+
+### 4. [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements)
+
+* _examples_:
+```javascript
+for (var i = 0; i < 10; i++){
+    console.log(i);
+}
+
+```
+
+### 5. [do/while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements)
+
+* _examples_:
+```javascript
+do {
+    x += 1;
+    console.log(x);
+} while (x <= 10);
+```
+
+### 6. [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements)
+
+* _examples_:
+```javascript
+while (x < 5) {
+    x++;
+    console.log(x);
+}
+```
+
+### 7. [for/in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements)
+
+* _examples_:
+```javascript
+for (variable in object){
+    code here
+}
+```
+
+### 8. [for each/in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements)
+
+* _examples_:
+```javascript
+var sum = 0;
+var obj = {prop1: 3, prop2:10, prop3: 2};
+for each (var iten in obj){
+    sum += item;
+}
+console.log(sum); // will log "15"
+```
