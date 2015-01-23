@@ -25,7 +25,10 @@ function move (toY, toX, fromY, fromX){
 move(5, 5, 7, 5);
 move(4, 4, 2, 4);
 move(4, 4, 5, 5);
+move(3, 8, 2, 8);
+move(6, 2, 7, 2);
 
+// This is the code to manually move each piece, which the code block of the function move was based on.
 
 // move kings's pawn forward 2
 //board[4][4] = board[6][4];
