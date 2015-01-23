@@ -360,11 +360,16 @@ result: ["bmw", "honda", "ford"]
 
 ### 7. [unshift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Mutator_methods)
 
-* Summary: sorts elements of an array in place, and returns that array. Based on unicode point value
-* Syntax: `arr.sort()`
-* Parameters:
+* Summary: adds one or more elements to thebeginning of an array and returns the new length of the array.
+* Syntax: `arr.unshift()`
+* Parameters: elementN
 * Example:
 ```javascript
-var numbers = [1, 2, 10, 21];
-numbers.sort(); // [1, 10, 2, 21]
+var arr = [1, 2];
+
+arr.unshift(0); //result of call is 3, which is the new array length
+arr is [0, 1, 2]
+
+arr.unshift(-2, -1); // = 5
+//arr is [-2, -1, 0, 1, 2]
 ```
