@@ -280,3 +280,33 @@ console.log(car.mycar); // Honda
 console.log(car[1]); // BMW
 ```
 
+#### String literals
+
+*example
+```javascript
+var strings = ["cool ", "string ", "can also \"quote\" in strings"];
+
+console.log(strings[0, 1, 2]); // "cool string can also "quote" in strings"
+```
+
+### Array Mutator Methods
+
+### 1. [pop()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Mutator_methods)
+
+* Summary: removes the last element from an array and returns it to the caller.
+* Syntax: `arr.pop()`
+
+### 2. [push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Mutator_methods)
+
+* Summary: Adds values to the end of an array
+* Syntax: `arr.push()`
+* Example:
+```javascript
+var dogs = ["retriever", "lab"];
+var more = dogs.push("pitbull", "terrier");
+
+console.log(dogs); // ["retriever", "lab", "pitbull", "terrier"]
+```
+
+
+
