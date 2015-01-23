@@ -248,3 +248,35 @@ var x = 5; // LOL i just used a comment in last section without seeing this is t
 ```javascript
 throw "Error 404"
 ```
+
+## Array and Mutator Methods
+
+### Array Literals
+
+var cars = ["Honda", "Toyota", "Ford"]
+
+#### Intergers
+
+var numbers = [15, 22, 999]
+
+#### Floating-Point
+**Can have**
+
+* decimal integer which can have + or -
+* decimal point
+* Fraction
+* an exponent (e)
+
+#### Object literals
+**Has**
+
+* List of 0 or more pairs of properties and valsues of an object
+* these are enclosed by {} and NOT []
+
+*example
+```javascript
+var car = { myCar: "Honda", getCar: "BMW", special: Sales}
+console.log(car.mycar); // Honda
+console.log(car[1]); // BMW
+```
+
