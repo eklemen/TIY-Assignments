@@ -343,7 +343,7 @@ var numbers = [1, 2, 10, 21];
 numbers.sort(); // [1, 10, 2, 21]
 ```
 
-### 5. [sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Mutator_methods)
+### 6. [splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Mutator_methods)
 
 * Summary: sorts elements of an array in place, and returns that array. Based on unicode point value
 * Syntax: `arr.sort()`
