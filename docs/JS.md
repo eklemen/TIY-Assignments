@@ -345,6 +345,21 @@ numbers.sort(); // [1, 10, 2, 21]
 
 ### 6. [splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Mutator_methods)
 
+* Summary: changes the content of an array by removing existing elements and or adding new elements
+* Syntax: `array.splice(start, deleteCount[, item1[, item2[,...]]])`
+* Parameters: start, deleteCount, itemN
+* Example:
+```javascript
+var cars = ["bmw", "honda", "toyota"];
+cars.splice(2, 0, "ford") //this removes 0 elements from index 2, and insers "ford"
+
+var cars = ["bwm", "honda", "toyota"];
+cars.splice(2, 1, "ford") //removes 1 element from index 2, and inserts "ford"
+result: ["bmw", "honda", "ford"]
+```
+
+### 7. [unshift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Mutator_methods)
+
 * Summary: sorts elements of an array in place, and returns that array. Based on unicode point value
 * Syntax: `arr.sort()`
 * Parameters:
