@@ -97,6 +97,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.piece.white.queen::before {
+    content: "\2655";
+    font-size: 5vw;
+}
+
+.piece:hover {
+    color: red;
+}
 
 
 table {
@@ -138,6 +146,7 @@ tbody :nth-child(odd) td:nth-child(odd){
     content: "\265A";
     position: absolute;
     font-size: 2em;
+    position: absolute;
 }
 
 #E8:hover {
@@ -146,6 +155,7 @@ tbody :nth-child(odd) td:nth-child(odd){
 
 /*Queens*/
 
+/*
 #D1::before {
     content: "\2655";
     position: absolute;
@@ -155,6 +165,7 @@ tbody :nth-child(odd) td:nth-child(odd){
 #D1:hover {
     color: red;
 }
+*/
 
 #D8::before {
     content: "\265B";
