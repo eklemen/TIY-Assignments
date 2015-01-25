@@ -36,14 +36,54 @@ it('should add "zero" plus "one"', function() {
 //    assert.equal(prod(3, 0), "zero");
 //})
 
-function div(a, b){
-    if(a == "zero") {
-        return 0;
-    } else if(b== "zero"){
-        return "undefined";
-    };
+//function div(a, b){
+//    if(a == "zero") {
+//        return 0;
+//    } else if(b== "zero"){
+//        return "undefined";
+//    };
+//}
+//
+//it('should return "zero" if the first number is 0, but if you try to divide by "zero" you will get "undefined"', function(){
+//    assert.equal(div("zero", 5), 0);
+//})
+
+//function plus(a){
+//    if(a == "six"){
+//        return 6;
+//    }
+//}
+//
+//it("should return 6 when you enter 'six' ", function(){
+//    assert.equal(plus("six"), 6);
+//})
+//
+//function plus(a){
+//    if(a == "seven"){
+//        return 7;
+//    }
+//}
+//
+//it("should return 7 when you enter 'seven' ", function(){
+//    assert.equal(plus("seven"), 7);
+//})
+//
+//function plus(a){
+//    if(a == "eight"){
+//        return 8;
+//    }
+//}
+//
+//it("should return 8 when you enter 'eight' ", function(){
+//    assert.equal(plus("eight"), 8);
+//})
+
+function plus(a){
+    if(a == "nine"){
+        return 9;
+    }
 }
 
-it('should return "zero" if the first number is 0, but if you try to divide by "zero" you will get "undefined"', function(){
-    assert.equal(div("zero", 5), 0);
+it("should return 9 when you enter 'nine' ", function(){
+    assert.equal(plus("nine"), 9);
 })
