@@ -7,15 +7,18 @@ console.log(Date());
     });
 
 function answer(){
+    var pushEvents = events.filter(function(item){
+        return item.type == 'PushEvent';
+    });
     return { 
         'total': events.length,
         'PushEvent': {
-            'total':4
+            'total': pushEvents.length
         }
     };
 }
-
-console.log(events.length)
+console.log(answer());
+console.log(events.length);
 var theAnswer = answer();
 
     it('should return that answer exists, and test for total events', function(){
