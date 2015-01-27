@@ -1,4 +1,36 @@
 var assert = require('assert');
+
+//it('should have a `plus` function', function(){
+//   assert(plus);
+//    assert.equal(typeof plus, 'function');
+//});
+//
+//
+//it('should add "zeros"', function(){
+//    assert.equal(plus("zero", "zero"), 0);
+//    
+//})
+
+console.log(Date());
+
+
+function plus (B) {
+    var numbers = {
+        "six": 6,
+        "five": 5,
+        "four": 4,
+        "three": 3,
+        "two": 2,
+        "one": 1,
+        "zero": 0
+    };
+    return numbers[B];
+}
+
+it('enter "string" should return number', function(){
+    assert.equal(plus("two"), 2);
+});
+
 /*
 function plus (A, B) {
     
@@ -78,12 +110,12 @@ it('should add "zero" plus "one"', function() {
 //    assert.equal(plus("eight"), 8);
 //})
 
-function plus(a){
-    if(a == "nine"){
-        return 9;
-    }
-}
-
-it("should return 9 when you enter 'nine' ", function(){
-    assert.equal(plus("nine"), 9);
-})
+//function plus(a){
+//    if(a == "nine"){
+//        return 9;
+//    }
+//}
+//
+//it("should return 9 when you enter 'nine' ", function(){
+//    assert.equal(plus("nine"), 9);
+//})

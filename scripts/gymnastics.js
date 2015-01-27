@@ -7,7 +7,7 @@ assert(events.length);
 function answer () {
     return {
         'total': events.length
-    }
+    };
 } // end answer
 
 describe('the setup', function (){
