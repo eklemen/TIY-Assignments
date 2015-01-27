@@ -373,3 +373,128 @@ arr is [0, 1, 2]
 arr.unshift(-2, -1); // = 5
 //arr is [-2, -1, 0, 1, 2]
 ```
+
+### Literal: `Array`
+. . .
+
+#### Iterator Methods
+
+##### `Array.prototype.every`
+
+* _params:_
+  * `callback`: `Function` to test each element against
+    * _params:_
+      * `item`: element to process
+      * `index`: index of processed element
+      * `all`: array instance
+    * _returns:_ `Boolean`
+  * `thisArg`: `Object` to which to bind `callback`
+* _returns:_ `Boolean` whether `callback` returns `true` for _every_ element
+* _example:_
+```javascript
+function every(anArray, callback){
+  var hasFailed = false; // it hasn't has it?
+
+  // iterate...
+  anArray.foreach(function(item, index, all){
+    if ( hasFailed ) return; // one failure ruins everything...
+
+    hasFailed = !callback(item, index, all); // why invert here?
+  });
+
+  return !hasFailed; // Another inverse?
+  // What if `anArray` is empty?
+}
+```
+
+##### `Array.prototype.forEach`
+
+* _params:_
+  * `callback`: `Function` to test each element against
+    * _params:_
+      * `currentValue`: current element being processed
+      * `index`: index of processed element
+      * `array`: the array forEach() was called upon
+    * _returns:_ `Boolean`
+  * `thisArg`: Optional, value to use as this when executing `callback`
+* _returns:_ the provided `callback` once for each element present in the array in ascending order
+* _example:_
+```javascript
+function logArrayElements(element, index, array) {
+    console.log('a[' + index + '] = ' + element);
+}
+[2, 5, , 9].forEach(logArrayElements);
+// a[0] = 2
+// a[1] = 5
+// a[3] = 9
+
+```
+##### `Array.prototype.some`
+
+* _params:_
+  * `callback`: `Function` to test each element against
+    * _params:_
+      * `currentValue`: current element being processed
+      * `index`: index of processed element
+      * `array`: the array some() was called upon
+    * _returns:_ `Boolean`
+  * `thisArg`: it will be passed to `callback`
+* _returns:_ `true` if any of the `callback`'s returns a true value, otherwise `false` is returned.
+* _example:_
+```javascript
+function isBiggerThan10(element, index, array) {
+    return element > 10;
+}
+
+[2, 5, 8, 1, 4].some(isBIggerThan10); //false
+[12, 5, 8, 1, 4].some(isBiggerThan10); //true
+```
+##### `Array.prototype.map`
+
+* _params:_
+  * `callback`: `Function` to test each element against
+      * _params:_
+      * `currentValue`: current element being processed
+      * `index`: index of processed element
+      * `array`: the array `map` was called upon
+  * `thisArg`: Optional, value to use as this when executing a `callback`
+* _returns:_ constructs a new array after testing the `callback` based on its values. values of undefined do not invoke the `callback` 
+* _example:_
+```javascript
+var numbers = [1, 4, 9];
+var doubles = numbers.map(function(num) {
+    return num * 2;
+});
+// double is now [2, 8, 18]. nubers is still [1, 4, 9]
+// also we could take Math.sqrt
+
+var roots = numbers.map(function(Math.sqrt));
+// roots is now [1, 2, 3]
+```
+##### `Array.prototype.reduce`
+
+* _params:_
+  * `callback`: `Function` to test each element against
+      * _params:_
+      * `previousValue`: value previously returned in the ast invocation of the callback, or initialValue
+      * `currentValue`: current element being processed in the array
+      * `index`: index of processed element
+      * `array`: the array `map` was called upon
+  * `initialValue`: Optional, value to use as the first argument to the first call of the callback
+* _example:_
+```javascript
+[0, 1, 2, 3, 4].reduce(function(previousValue, currentValue, index, array){
+    return previousValue + currentValue;
+});
+
+// callback would be invoked 4 times
+            previousValue  currentValue  index return-value
+first call         0            1           1       1
+second call        1            2           2       3
+third call         3            3           3       6
+fourth call        6            4           4       10
+```
+
+
+
+
