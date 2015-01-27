@@ -471,7 +471,7 @@ var doubles = numbers.map(function(num) {
 var roots = numbers.map(function(Math.sqrt));
 // roots is now [1, 2, 3]
 ```
-##### `Array.prototype.reduce`
+##### `Array.prototype.reduceRight`
 
 * _params:_
   * `callback`: `Function` to test each element against
@@ -479,20 +479,20 @@ var roots = numbers.map(function(Math.sqrt));
       * `previousValue`: value previously returned in the ast invocation of the callback, or initialValue
       * `currentValue`: current element being processed in the array
       * `index`: index of processed element
-      * `array`: the array `map` was called upon
+      * `array`: the array `reduceRight` was called upon
   * `initialValue`: Optional, value to use as the first argument to the first call of the callback
 * _example:_
 ```javascript
-[0, 1, 2, 3, 4].reduce(function(previousValue, currentValue, index, array){
+[0, 1, 2, 3, 4].reduceRight(function(previousValue, currentValue, index, array){
     return previousValue + currentValue;
 });
 
 // callback would be invoked 4 times
             previousValue  currentValue  index return-value
-first call         0            1           1       1
-second call        1            2           2       3
-third call         3            3           3       6
-fourth call        6            4           4       10
+first call         4            3           3       7
+second call        7            2           2       9
+third call         9            1           1       10
+fourth call        10            0           0       10
 ```
 
 
