@@ -1,6 +1,3 @@
 var events = require('../apis/github/users/eklemen/events.json');
 
-function answer(events.total){
-    return events;
-}
-console.log(answer);
+console.log(events.length); //prints 30, I'm assuming 30 events but that doesnt seem right hmm...
