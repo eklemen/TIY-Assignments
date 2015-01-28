@@ -1,21 +1,23 @@
 var assert = require('assert');
 
-//it('should have a `plus` function', function(){
-//   assert(plus);
-//    assert.equal(typeof plus, 'function');
-//});
-//
-//
-//it('should add "zeros"', function(){
-//    assert.equal(plus("zero", "zero"), 0);
-//    
-//})
-
 console.log(Date());
 
-
-function plus (B) {
+function plus (A, B) {
     var numbers = {
+        "twenty": 20,
+        "nineteen": 19,
+        "eighteen": 18,
+        "seventeen": 17,
+        "sixteen": 16,
+        "fifteen": 15,
+        "fourteen": 14,
+        "thirteen": 13,
+        "twelve": 12,
+        "eleven": 11,
+        "ten": 10,
+        "nine": 9,
+        "eight": 8,
+        "seven": 7,
         "six": 6,
         "five": 5,
         "four": 4,
@@ -24,12 +26,68 @@ function plus (B) {
         "one": 1,
         "zero": 0
     };
-    return numbers[B];
+    return numbers[A] + numbers[B];
 }
 
-it('enter "string" should return number', function(){
-    assert.equal(plus("two"), 2);
+it('Tests A input values against B when B is zero', function(){
+    assert.equal(plus("zero", "zero"), 0);
+    assert.equal(plus("one", "zero"), 1);
+    assert.equal(plus("two", "zero"), 2);
+    assert.equal(plus("three", "zero"), 3);
+    assert.equal(plus("four", "zero"), 4);
+    assert.equal(plus("five", "zero"), 5);
+    assert.equal(plus("six", "zero"), 6);
+    assert.equal(plus("seven", "zero"), 7);
+    assert.equal(plus("eight", "zero"), 8);
+    assert.equal(plus("nine", "zero"), 9);
+    assert.equal(plus("ten", "zero"), 10);
 });
+
+it('Tests B input values against A when A is zero', function(){
+    assert.equal(plus("zero", "zero"), 0);
+    assert.equal(plus("zero", "one"), 1);
+    assert.equal(plus("zero", "two"), 2);
+    assert.equal(plus("zero", "three"), 3);
+    assert.equal(plus("zero", "four"), 4);
+    assert.equal(plus("zero", "five"), 5);
+    assert.equal(plus("zero", "six"), 6);
+    assert.equal(plus("zero", "seven"), 7);
+    assert.equal(plus("zero", "eight"), 8);
+    assert.equal(plus("zero", "nine"), 9);
+    assert.equal(plus("zero", "ten"), 10);
+});
+//
+//
+//function product (A, B) {
+//    var numbers = {
+//        "twenty": 20,
+//        "nineteen": 19,
+//        "eighteen": 18,
+//        "seventeen": 17,
+//        "sixteen": 16,
+//        "fifteen": 15,
+//        "fourteen": 14,
+//        "thirteen": 13,
+//        "twelve": 12,
+//        "eleven": 11,
+//        "ten": 10,
+//        "nine": 9,
+//        "eight": 8,
+//        "seven": 7,
+//        "six": 6,
+//        "five": 5,
+//        "four": 4,
+//        "three": 3,
+//        "two": 2,
+//        "one": 1,
+//        "zero": 0
+//    };
+//    return numbers[A] * numbers[B];
+//}
+//
+//it('should return the product as a number value of two string numbers', function(){
+//    assert.equal(product("four", "five"), 20);
+//});
 
 /*
 function plus (A, B) {

@@ -1,7 +1,7 @@
 var assert = require('assert');
 console.log(Date());
 
-var toEnglish = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
+var toEnglish = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thriteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty"];
 
 function printer(n){
     console.log(toEnglish[n]);
@@ -10,7 +10,7 @@ function printer(n){
 
 it('should print the string number value for the integer given to printer', function(){
     assert.equal(printer(5), "five");
-    assert.equal(printer(4), "five");
+    assert.equal(printer(4), "five"); // this should fail... obviously :)
     });
 
 //var whatNum = function(a){
