@@ -10,8 +10,6 @@ function answer(){
     var pushEvents = events.filter(function(item){
         return item.type == 'PushEvent';
     });
-    var 
-    });
     return { 
         'total': events.length,
         'PushEvent': {
