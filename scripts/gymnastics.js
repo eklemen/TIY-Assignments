@@ -1,5 +1,6 @@
 var events = require('../apis/github/users/eklemen/events.json'),
-    assert = require('assert');
+    assert = require('assert'),
+    _ = require('lodash');
 
 console.log(Date());
 
