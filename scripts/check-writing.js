@@ -10,7 +10,7 @@ function printer(n){
 
 it('should print the string number value for the integer given to printer', function(){
     assert.equal(printer(5), "five");
-    assert.equal(printer(4), "five");
+    assert.equal(printer(4), "five"); // this should fail... obviously :)
     });
 
 //var whatNum = function(a){
