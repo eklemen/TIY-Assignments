@@ -10,6 +10,8 @@ function answer(){
     var pushEvents = events.filter(function(item){
         return item.type == 'PushEvent';
     });
+    
+    
     return { 
         'total': events.length,
         'PushEvent': {
@@ -20,6 +22,19 @@ function answer(){
 console.log(answer());
 console.log(events.length);
 var theAnswer = answer();
+
+function filterByName(events){
+    var f = [];
+    return theAnswer.filter(function(n){
+        return f.indexOf(n.name) == -1 && f.push(n.name)
+    });
+}
+console.log(filterByName());
+
+
+
+// store in new array all event types
+// 
 
     it('should return that answer exists, and test for total events', function(){
         assert(answer);
