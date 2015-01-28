@@ -1,5 +1,6 @@
-var events = require('../apis/github/users/eklemen/events.json');
-var assert = require('assert');
+var events = require('../apis/github/users/eklemen/events.json'),
+    assert = require('assert');
+
 console.log(Date());
 
     it('should tell us that events has an input', function (){
@@ -23,13 +24,6 @@ console.log(answer());
 console.log(events.length);
 var theAnswer = answer();
 
-function filterByName(events){
-    var f = [];
-    return theAnswer.filter(function(n){
-        return f.indexOf(n.name) == -1 && f.push(n.name)
-    });
-}
-console.log(filterByName());
 
 
 
@@ -50,42 +44,7 @@ console.log(filterByName());
         assert(theAnswer.PushEvent.total);
     });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// THE CODE BELOW IS FROM MONDAY
 
 //console.log(events.length); //prints 30, I'm assuming 30 events but that doesnt seem right hmm...
 //
