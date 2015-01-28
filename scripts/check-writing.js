@@ -1,7 +1,7 @@
 var assert = require('assert');
 console.log(Date());
 
-var toEnglish = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
+var toEnglish = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thriteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty"];
 
 function printer(n){
     console.log(toEnglish[n]);
