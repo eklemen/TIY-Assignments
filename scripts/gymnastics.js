@@ -13,12 +13,16 @@ function answer(){
         return item.type == 'PushEvent';
     });
     
+    var uniqueTypes = _.filter(events, function() {_.uniq(events.type);
+            });
+    
     
     return { 
         'total': events.length,
         'PushEvent': {
             'total': pushEvents.length,
-        }
+        },
+        'unique': 0
     };
 }
 console.log(answer());
@@ -29,7 +33,7 @@ var theAnswer = answer();
 
 
 // store in new array all event types
-// 
+    
 
     it('should return that answer exists, and test for total events', function(){
         assert(answer);
@@ -43,6 +47,10 @@ var theAnswer = answer();
     it('should have "PushEvent", and has a total count of PushEvents', function(){
         assert(theAnswer.PushEvent);
         assert(theAnswer.PushEvent.total);
+    });
+    
+    it ('should find all unique `type`s', fucntion(){
+        assert(theAnswer.unique);
     });
 
 // THE CODE BELOW IS FROM MONDAY

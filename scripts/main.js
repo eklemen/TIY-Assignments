@@ -1,54 +1,47 @@
-var _ = require('lodash')
+var _ = require('lodash');
 function print(board){
+  // Before any rows are printed, print the `<table>`...
+  console.log('<table class="chessboard">');
+
+//    _.forEach(board, function(row, rank){
+//        
+//      // Before any cells are printed...
+//
+//      _.forEach(row, function(square, file){
+//          
+//          // In here, we have `rank`, `file`, and `square`...
+//
+//      }); // END foreach(row)
+//
+//      // After all the cells are printed...
+//
+//  }); // END foreach(board)
+    var row1 = ['<td>', '</td>'];
+    var i = 0;
+    var x = 0;
     
-    console.log('<tabel class="chessboard">');
-    
-    _.forEach(board, function(row, rank){
-        var array = new Array(8);
-        for (var i = 0; i < 8; i++){
-            array[i] = [' '];
+    function rows(){
+        while (i<8){
+            console.log(row1[0]+row1[1]);
+            i++;
         }
-      // Before any cells are printed...
-
-      _.forEach(row, function(square, file){
-
-          // In here, we have `rank`, `file`, and `square`...
-
-      }); // END foreach(row)
-
-      // After all the cells are printed...
-
-  }); // END foreach(board)
-
+        console.log('\n');
+    }
+    
+    rows();
+    
   // After all the rows are printed...
   console.log('</table> <!-- .chessboard -->');
 } // END print
 
+console.log(print());
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//
 //var board = [
 //['R','N','B','Q','K','B','N','R'],
 //['P','P','P','P','P','P','P','P'],
