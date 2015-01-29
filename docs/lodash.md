@@ -79,3 +79,23 @@
 * _differences:_
   * not just for `Array`; can be run with `Object` and `String` as `collection`
   * `predicate` can be `Object` or `String`...?
+  
+  ### [`_.toString`](http://lodash.com/docs#prototype-toString)
+
+* _returns:_
+  * `string` returns the coerced string value
+* _differences:_
+  * not just for `Array`; can be run with `Object` and `String` as `collection`
+  * `predicate` can be `Object` or `String`...?
+  
+  ### [`_.indexOf`](http://lodash.com/docs#indexOf)
+
+* _params:_
+  * arrayL the array to search
+  * value(*): the value to search for
+  * [fromIndex=0](boolean|number): the index to search from or true to perform a binary search on a sorted array
+* _returns:_
+  * `number` returns the index of the matched values, else -1
+* _differences:_
+  * not just for `Array`; can be run with `Object` and `String` as `collection`
+  * `predicate` can be `Object` or `String`...
