@@ -9,28 +9,42 @@ console.log(Date());
     });
 
 function answer(){
-    var pushEvents = events.filter(function(item){
-        return item.type == 'PushEvent';
-    });
+    var pushEvents = _.filter(events, {'type': 'PushEvent'}
+                            );
     
-    var uniqueTypes = _.filter(events, function() {_.uniq(events.type);
-            });
-    
-    
+//    var uniqueTypes = _.filter(events, {'type': 'PushEvent'}
+//                              );
+//    
+   
     return { 
         'total': events.length,
         'PushEvent': {
             'total': pushEvents.length,
-        },
-        'unique': 0
+        }
     };
 }
-console.log(answer());
-console.log(events.length);
 var theAnswer = answer();
+var first = _.first(events);
+var last = _.last(events);
+
+console.log(
+    _(events)
+        .pluck(events, 'created_at')
+        .map(fucntion(date) {
+             return date.slice(0, 10);
+        })
+        .uniq()
+    .value()
+);
+    
 
 
-
+it('should have `perDay` stats', function(){
+    assert(first);
+    assert(first.created_at); 
+    console.log(first.created_at.slice(8, 10));
+    console.log(last.created_at.slice(8, 10));
+});
 
 // store in new array all event types
     
@@ -49,9 +63,9 @@ var theAnswer = answer();
         assert(theAnswer.PushEvent.total);
     });
     
-    it ('should find all unique `type`s', fucntion(){
-        assert(theAnswer.unique);
-    });
+//    it ('should find all unique `type`s', fucntion(){
+//        assert(theAnswer.unique);
+//    });
 
 // THE CODE BELOW IS FROM MONDAY
 
