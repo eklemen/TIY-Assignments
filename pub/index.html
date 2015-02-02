@@ -17,17 +17,58 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-
+        <style>
+            h2 {
+                border-bottom: solid 1px gray;
+                padding-bottom: 1ex;
+            }
+            h2 > a {
+                text-decoration: none;
+                color:blue;
+            }
+            h2 > a:before{
+                content: '\2799';
+                padding-right: 0.5em;
+                color: gray;
+                display: inline-block;
+                width: 1em;
+            }
+            
+            h2 > a:hover:before{
+                content: '\2798';
+                color: blue;
+            }
+            h2 + article {
+                display: none;
+            }
+            .open {
+                display: block;
+            }
+            h2.open + article {
+                display: block;
+            }
+            h2.open > a:before{
+                content: '\2797';
+                color: blue;
+            }
+        </style>
+        <h2><a href="#">TITLE HERE</a></h2>
+        <article>
+            <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round. I believe I never knew what the word round meant until I saw Earth from space.
+            </p>
+        </article>    
+        <h2><a href="#">TITLE HERE</a></h2>
+        <article>
+            <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round. I believe I never knew what the word round meant until I saw Earth from space.
+            </p>
+        </article>    
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script>
+            
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
