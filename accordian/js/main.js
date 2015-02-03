@@ -1,10 +1,10 @@
 var clickMe = function(){
-    this.nextElementSibling.className = "open";
-//    if (this.nextElementSibling.style.display == "none"){
-//        this.nextElementSibling.className = "open";
-//    } else {
-//        this.nextElementSibling.style.display = "none";
-//    }
+if (this.nextElementSibling.className != "open") {
+            this.nextElementSibling.className = "open";
+            }
+            else {
+                this.nextElementSibling.className = "closed";;
+            }
         
 }
 

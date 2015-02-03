@@ -11,57 +11,61 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+        
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
-        <style>
-            h2 {
-                border-bottom: solid 1px gray;
-                padding-bottom: 1ex;
-            }
-            h2 > a {
-                text-decoration: none;
-                color:blue;
-            }
-            h2 > a:before{
-                content: '\2799';
-                padding-right: 0.5em;
-                color: gray;
-                display: inline-block;
-                width: 1em;
-            }
+        <div class="container container-fluid">
+            <nav>
+                <a href="#">
+                    <div class="nav col-xs-3">
+                       Shop
+                    </div>
+                </a>    
+                <a href="#">
+                    <div class="nav col-xs-3">
+                       Drinks
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="nav col-xs-3">
+                       Food
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="nav col-xs-3">
+                       Lab
+                    </div>
+                </a>
+            </nav>
+            <section>
+                <div class="img-responsive col-md-4 col-xs-12">
+                    <img class="pics img-responsive" src="http://lorempicsum.com/futurama/400/250/1" />
+                    <p>
+                        The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round. I believe I never knew what the word round meant until I saw Earth from space.
+                    </p>
+                </div>
+                <div class="img-responsive col-md-4 col-xs-12">
+                    <img class="pics img-responsive" src="http://lorempicsum.com/futurama/400/250/5" />
+                    <p>
+                        The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round. I believe I never knew what the word round meant until I saw Earth from space.
+                    </p>
+                </div>
+                
+                <div class="img-responsive col-md-4 col-xs-12">
+                    <img class="pics img-responsive" src="http://lorempicsum.com/futurama/400/250/7" />
+                </div>
+                <p>
+                        The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round. I believe I never knew what the word round meant until I saw Earth from space.
+                    </p>
+            </section>
             
-            h2 > a:hover:before{
-                content: '\2798';
-                color: blue;
-            }
-            h2 + article {
-                display: none;
-            }
-            .open {
-                display: block;
-            }
-            h2.open + article {
-                display: block;
-            }
-            h2.open > a:before{
-                content: '\2797';
-                color: blue;
-            }
-        </style>
-        <h2><a href="#">TITLE HERE</a></h2>
-        <article>
-            <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round. I believe I never knew what the word round meant until I saw Earth from space.
-            </p>
-        </article>    
-        <h2><a href="#">TITLE HERE</a></h2>
-        <article>
-            <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round. I believe I never knew what the word round meant until I saw Earth from space.
-            </p>
-        </article>    
+        </div>  <!-- .container -->  
+        
+        
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>

@@ -98,18 +98,16 @@ textarea {
    ========================================================================== */
 
 
+.nav {
+    text-align: center;
+    padding: 1.5em;
+    font-size: 1.5em;
+    border: solid blue 1px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.nav:selected {
+    background-color: lightblue;
+}
 
 
 
