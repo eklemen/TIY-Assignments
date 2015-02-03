@@ -150,6 +150,9 @@ h3 > a:hover:before{
 .open {
     display: block;
 }
+.closed {
+    display: none;
+}
 h2.open + article {
     display: block;
 }

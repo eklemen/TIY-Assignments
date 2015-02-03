@@ -9,10 +9,10 @@
 //}
 
 var switchTab = function(){
-    this.pics[0];
+    console.log('hi');
 }
 
-var tabs = document.getElementsByClassName('nav');
+var tabs = document.getElementsByClassName('ul');
 var pics = document.getElementsByClassName('pics');
 
 for (var i=0; i<tabs.length; i++){
