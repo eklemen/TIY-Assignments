@@ -105,12 +105,21 @@ textarea {
     background-color: lightblue;
 }
 
+/*
 .octocat {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
+}
+*/
+
+figure {
+    text-align: center;
 }
 
-
+figcaption p { 
+    font-size: 2em;
+    font-weight: bolder;
+}
 
 
 
