@@ -97,62 +97,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body {
-    background-color: #47A3DA;
-}
 
-.container {
-    color: white;
-    letter-spacing: 0.1em;
-    font-size: 1.5em;
-    line-height: 3ex;
-}
 
-input {
-    border: 3px solid white;
-    background-color: #47A3DA;
-}
 
-textarea {
-    height: 10ex;
-    border: 3px solid white;
-    background-color: #47A3DA;
-}
-select{
-    background-color: #47A3DA;
-    color: white;
-}
-
-.row {
-    margin-top: 3ex;
-}
-
-.split-row{
-    margin-top: -2ex;
-}
-
-.sub-button {
-    margin: 0 auto;
-}
-
-::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #24528B;
-    font-style: italic;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    #24528B;
-   opacity:  1;
-    font-style: italic;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #24528B;
-   opacity:  1;
-    font-style: italic;
-}
-:-ms-input-placeholder { /* Internet Explorer 10+ */
-   color:    #24528B;
-    font-style: italic;
-}
 
 
 
