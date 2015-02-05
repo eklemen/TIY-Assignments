@@ -97,6 +97,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.container{
+    margin-top: 3ex;
+}
 .nav {
     margin-bottom: 2ex;
 }
@@ -112,9 +115,22 @@ textarea {
 }
 */
 
+.popular-repo {
+    border: solid gray 2px;
+    border-radius: 1ex;
+}
+.popular-repo ul {
+    list-style: none;
+}
+
+.popular-repo ul a {
+    font-size: 1em;
+}
+
 figure {
     text-align: center;
 }
+
 
 figcaption p { 
     font-size: 2em;
