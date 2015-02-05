@@ -119,12 +119,21 @@ textarea {
     border: solid gray 2px;
     border-radius: 1ex;
 }
+
 .popular-repo ul {
+    line-height: 0.5ex
+}
+ul {
     list-style: none;
+    padding-left: 1.8em;
 }
 
 .popular-repo ul a {
-    font-size: 1em;
+    font-size: 0.7em;
+}
+.popular-repo ul h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 figure {

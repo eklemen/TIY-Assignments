@@ -18,7 +18,7 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
-        <div class="container">
+        <div class="container-fluid">
             <div class='col-sm-3'>
                     <figure><img class='octocat img-responsive'  src='https://avatars1.githubusercontent.com/u/583231?v=3&s=460' />
                     </figure>
@@ -35,24 +35,52 @@
             <div class='col-md-9'>
                 <nav role="navigation">
                     <ul class="nav nav-tabs">
-                      <li role="presentation" class="active col-xs-4"><a href="#">Contributions</a></li>
-                      <li role="presentation" class="col-xs-4"><a href="#">Repositories</a></li>
-                      <li role="presentation" class="col-xs-4"><a href="#">Public activity</a></li>
-                    </ul>   
+                      <li role="presentation" class="nav active col-xs-4 col-sm-3">
+                        <a href="#A" data-toggle="tab">
+                        Contributions</a></li>
+                      <li role="presentation" class="nav col-xs-4 col-sm-3">
+                        <a href="#B" data-toggle="tab">Repositories</a></li>
+                      <li role="presentation" class="nav col-xs-4 col-sm-3">
+                        <a href="#C" data-toggle="tab">Public activity</a></li>
+                    </ul> <!-- tab decoration^ content v-->
+                    <div class='tab-content'>
+                        <div class='tab-pane fade in active' id="A">
+                            <div class='popular-repo'>
+                                <ul>
+                                    <li><a href=""><h3>Spoon-Knife</h3></a>
+                                        <p>Info info</p>
+                                    </li><hr>
+                                    <li><a href=""><h3>Hello-World</h3></a><p>Text text info</p></li><hr>
+                                    <li><a href=""><h3>hello-world</h3></a><p>Text text info</p></li><hr>
+                                    <li><a href=""><h3>octocat.github.io</h3></a><p>Text text info</p></li><hr>
+                                    <li><a href=""><h3>git-consortium</h3></a><p>Text text info</p></li><hr>
+                                </ul>
+                            </div>
+                        </div> <!-- TAB A contents -->
+                        <div class="tab-pane fade" id="B">
+                            <div class='repo-tab'>
+                                <ul>
+                                    <li><a href=""><h3>Spoon-Knife</h3></a>
+                                        <p>Info info</p>
+                                    </li><hr>
+                                    <li><a href=""><h3>Hello-World</h3></a><p>Text text info</p>
+                                        <p class="sub-info">Updated on <date>Sept 3, 2014</date></p>
+                                    </li><hr>
+                                    <li><a href=""><h3>hello-world</h3></a><p>Text text info</p>
+                                        <p class="sub-info">Updated on <date>July 14, 2014</date></p>
+                                    </li><hr>
+                                    <li><a href=""><h3>octocat.github.io</h3></a><p>Text text info</p>
+                                        <p class="sub-info">Updated on <date>June 20, 2014</date></p>
+                                    </li><hr>
+                                    <li><a href=""><h3>git-consortium</h3></a><p>Text text info</p>
+                                        <p class="sub-info">Updated on <date>Jan 2, 2014</date></p>
+                                    </li><hr>
+                                </ul>
+                            </div>
+                        </div> <!--
+                        </div>
+                    </div>
                 </nav>
-                <div class='popular-repo'>
-                    <ul>
-                        <li><a href=""><h3>Spoon-Knife</h3></a>
-                            <p>Info info</p>
-                        </li><hr>
-                        <li><a href=""><h3>Hello-World</h3></a><p>Text text info</p></li><hr>
-                        <li><a href=""><h3>hello-world</h3></a><p>Text text info</p></li><hr>
-                        <li><a href=""><h3>octocat.github.io</h3></a><p>Text text info</p></li><hr>
-                        <li><a href=""><h3>git-consortium</h3></a><p>Text text info
-                            
-                        </p></li><hr>
-                    </ul>
-                </div>
             </div>    
 <!--  end of main col          -->
                 
