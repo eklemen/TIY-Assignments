@@ -115,6 +115,10 @@ textarea {
 }
 */
 
+.octicon-repo:before{
+    content: "\f001";
+}
+
 .popular-repo {
     border: solid gray 2px;
     border-radius: 1ex;
