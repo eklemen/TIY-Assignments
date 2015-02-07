@@ -115,6 +115,11 @@ textarea {
 }
 */
 
+.octocat {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
 h3 {
     display: inline-block;
 }
