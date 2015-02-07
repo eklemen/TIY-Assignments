@@ -20,8 +20,8 @@
             $.getJSON(user.repos_url, function(repos){
 
            var repoItems = $.map(repos, function(name, i){
-                  var listItem = $('<li></li>')
-                  $('<h3>' + repos[i].name + '</h3>').appendTo(listItem);
+                  var listItem = $('<li></li>');
+                  $('<h3>' + repos[i].name + '</h3><hr>').appendTo(listItem);
 //               console.log(repos[i].name);     
                return listItem;
               });
