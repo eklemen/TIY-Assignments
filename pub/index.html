@@ -53,26 +53,33 @@
                     <div class='tab-content'>
                         <div class='tab-pane fade in active' id="A">
                             <div class='popular-repo'>
-                                <ul class="repo-list">
+                                <ul class="tab1">
                                     <!-- {{CONTRIBUTIONS}} -->
                                 </ul>
                             </div>
                         </div> <!-- TAB A contents -->
                         <div class="tab-pane fade" id="B">
                             <div class='repo-tab'>
-                                <ul>
+                                <ul class="tab2">
                                     <li><a href=""><h3>Spoon-Knife</h3></a>
                                         <p>Info info</p>
                                     </li><hr>
                                     <!-- {{REPOS GO HERE}}-->
                                 </ul>
                             </div>
-                        </div>
-                        </div>
+                        </div> <!-- TAB B contents -->
+                        <div>
+                            <form id="userComment" method="post" enctype="text/plain">
+                                <label>Comment</label><br>
+                                <textarea class="comment-box col-sm-12 col-xs-12 col-md-12" placeholder="Comment here!" form="userComment" required></textarea>
+                                <button id="submit" type="button" value="Submit" form="userComment">Submit</button>
+                            </form>
+                            
+                        </div> <!-- .comment-box -->
+                        </div> <!-- .tab-content -->
                     </div>
                 </nav>
-            </div>    
-<!--  end of main col          -->
+            </div>    <!--  end of main col  -->
                 
         </div>  <!-- .container -->  
         

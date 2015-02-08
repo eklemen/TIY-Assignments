@@ -123,12 +123,14 @@ textarea {
 h3 {
     display: inline-block;
 }
-a + p{
-    margin-left: 3em;
-}
+
 .popular-repo {
     border: solid gray 2px;
     border-radius: 1ex;
+}
+
+.updated {
+    color: #898989;
 }
 
 .popular-repo ul {
@@ -162,9 +164,14 @@ figcaption p {
     font-weight: bolder;
 }
 
+.comment-box {
+    height: 12ex;
+}
 
-
-
+#submit {
+    float: right;
+    margin: 1ex 0.2em;
+}
 
 
 

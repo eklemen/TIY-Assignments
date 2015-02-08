@@ -4,7 +4,7 @@
     $(document).ready(function(){
 //        var user = $.get('../apis/github/users/eklemen/eklemen.json');
 //        console.log(user);
-        var path = '../apis/github/users/eklemen/eklemen.json'
+        var path = 'https://api.github.com/users/eklemen';
         
         $.getJSON(path, function(json){
             var user = json;
@@ -19,17 +19,31 @@
 //            Popular Repo Info
             $.getJSON(user.repos_url, function(repos){
 
-           var repoItems = $.map(repos, function(name, i){
+        var repoTab1 = $.map(repos, function(name, i){
+            var listItem = $('<li></li>');
+            var repI = repos[i];
+            $('<a href="https://github.com/eklemen/' + repos[i].name + '">' +  '<h3>' + repI.name + '</h3></a>').appendTo(listItem);
+            $('<p>' + repI.description + '</p><hr>').appendTo(listItem);
+            //               console.log(repos[i].name);     
+            return listItem;
+            });
+            $('.tab1').html(repoTab1);
+            var repoTab2 = $.map(repos, function(name, i){
               var listItem = $('<li></li>');
               var repI = repos[i];
-              $('.repo-class').attr("href", repI.html_url);
-              $('<a href=""><h3>' + repI.name + '</h3></a>').appendTo(listItem);
-              $('<p>' + repI.created_at + '</p><hr>').appendTo(listItem);
+              $('<a href="https://github.com/eklemen/' + repos[i].name + '">' + '<h3>' + repI.name + '</h3></a>').appendTo(listItem);
+              $('<p>' + repI.description + '</p>').appendTo(listItem);
+              $('<p class="updated">' + repI.updated_at + '</p><hr>').appendTo(listItem);
 //               console.log(repos[i].name);     
               return listItem;
-              });
-              $('.repo-list').html(repoItems);
-          })
+            });
+            $('.tab2').html(repoTab2);    
+          });
+            
+        });
+        $("#submit").on('click', function(){
+            $.post("https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/250/comments?access_token=b8b4f2f9b8c99ce634276b29acdfd7ad8a05cdb4", JSON.stringify({"body": $(".comment-box").val()})),
+            $(".comment-box").val("");    
         });
         
             });
