@@ -21,7 +21,8 @@
 
            var repoItems = $.map(repos, function(name, i){
                   var listItem = $('<li></li>');
-                  $('<h3>' + repos[i].name + '</h3><hr>').appendTo(listItem);
+                  $('<h3>' + repos[i].name + '</h3>').appendTo(listItem);
+                  $('<p>' + repos[i].created_at + '</p><hr>').appendTo(listItem);
 //               console.log(repos[i].name);     
                return listItem;
               });
