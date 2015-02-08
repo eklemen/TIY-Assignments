@@ -20,11 +20,13 @@
             $.getJSON(user.repos_url, function(repos){
 
            var repoItems = $.map(repos, function(name, i){
-                  var listItem = $('<li></li>');
-                  $('<h3>' + repos[i].name + '</h3>').appendTo(listItem);
-                  $('<p>' + repos[i].created_at + '</p><hr>').appendTo(listItem);
+              var listItem = $('<a class="repo-class"><li></li></a>');
+              var repI = repos[i];
+              $('.repo-class').attr("href", repI.html_url);
+              $('<h3>' + repI.name + '</h3>').appendTo(listItem);
+              $('<p>' + repI.created_at + '</p><hr>').appendTo(listItem);
 //               console.log(repos[i].name);     
-               return listItem;
+              return listItem;
               });
               $('.repo-list').html(repoItems);
           })
