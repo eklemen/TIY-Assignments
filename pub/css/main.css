@@ -97,8 +97,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.container{
+.container-fluid {
     margin-top: 3ex;
+    min-width: 430px;
 }
 .nav {
     margin-bottom: 2ex;
@@ -108,32 +109,59 @@ textarea {
     background-color: lightblue;
 }
 
-/*
-.octocat {
-    height: 300px;
-    width: 300px;
+.profile-pic {
+    width: 15em;
+    margin: 0 auto;
+    border-radius: 1ex;
 }
-*/
+
+h3 {
+    display: inline-block;
+}
+
+#location {
+    display: inline;
+}
 
 .popular-repo {
     border: solid gray 2px;
     border-radius: 1ex;
 }
 
-.popular-repo ul {
-    line-height: 0.5ex
+.updated {
+    color: #898989;
+}
+
+#list-title {
+    margin-left: 0;
+    background-color: gray;
 }
 ul {
     list-style: none;
     padding-left: 1.8em;
 }
 
-.popular-repo ul a {
-    font-size: 0.7em;
+.tab1 li:first-child{
+    margin-top: 1em;
+}
+
+.description {
+    padding-left: 1.5em;
+    font-size: 0.85em;
+    color: gray;
+}
+.popular-repo ul {
+    line-height: 0.5ex
 }
 .popular-repo ul h3{
     margin-top: 5px;
     margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+.tab1 li h3::before{
+    padding-right: 0.5em;
+    color: gray;
 }
 
 figure {
@@ -146,9 +174,22 @@ figcaption p {
     font-weight: bolder;
 }
 
+#userComment {
+    margin: 2ex 0;
+}
 
+.comment-box {
+    height: 12ex;
+    border-radius: 0.6ex;
+    border: solid gray 1px;
+}
 
-
+#submit {
+    float: right;
+    margin: 1ex 0.2em;
+    border-radius: 0.5ex;
+    
+}
 
 
 
@@ -263,9 +304,7 @@ figcaption p {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
+
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),

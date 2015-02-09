@@ -15,24 +15,34 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="../octicons/octicons.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
         <div class="container-fluid">
-            <div class='col-sm-3'>
-                    <figure><img class='octocat img-responsive'  src='https://avatars1.githubusercontent.com/u/583231?v=3&s=460' />
+            <div class='col-xs-12 col-md-3 col-sm-3'>
+                    <figure><img class='profile-pic img-responsive' />
                     </figure>
                     <figcaption>
-                        <p>The Octocat</p>
+                        <p id="myName">{{NAME}}</p>
                     </figcaption>
                 <hr>
-                    <nav>
-                        <a href="">M ejklemen@gmail.com</a><br>
-                        <a href="">B http://eklemen.github.io/</a>
-                    </nav>
+                    <nav class="contact">
+                        <span class="octicon octicon-location"></span>
+                        <p id="location"></p><br>
+                        <span class="octicon octicon-mail"></span>
+                        <a id='email' href="">{{email}}</a><br>
+                        <span class="octicon octicon-link"></span>
+                        <a id='github-link' href="">{{GITHUB LINK}}}}</a>
+                    </nav><hr class="hidden-sm hidden-xs">
+                <div class="stats">
+                    <a id='followers' href="">{{FOLLOWERS}}</a>
+                    <a id='starred' href="">{{STARRED}}</a>
+                    <a id='following' href="">{{FOLLOWING}}</a>
+                </div>
                 <hr>
                 </div>
-            <div class='col-md-9'>
+            <div class='col-md-9 col-sm-12'>
                 <nav role="navigation">
                     <ul class="nav nav-tabs">
                       <li role="presentation" class="nav active col-xs-4 col-sm-3">
@@ -46,43 +56,30 @@
                     <div class='tab-content'>
                         <div class='tab-pane fade in active' id="A">
                             <div class='popular-repo'>
-                                <ul>
-                                    <li><a href=""><h3>Spoon-Knife</h3></a>
-                                        <p>Info info</p>
-                                    </li><hr>
-                                    <li><a href=""><h3>Hello-World</h3></a><p>Text text info</p></li><hr>
-                                    <li><a href=""><h3>hello-world</h3></a><p>Text text info</p></li><hr>
-                                    <li><a href=""><h3>octocat.github.io</h3></a><p>Text text info</p></li><hr>
-                                    <li><a href=""><h3>git-consortium</h3></a><p>Text text info</p></li><hr>
+                                <ul class="tab1">
+                                    <!-- {{CONTRIBUTIONS}} -->
                                 </ul>
                             </div>
                         </div> <!-- TAB A contents -->
                         <div class="tab-pane fade" id="B">
                             <div class='repo-tab'>
-                                <ul>
-                                    <li><a href=""><h3>Spoon-Knife</h3></a>
-                                        <p>Info info</p>
-                                    </li><hr>
-                                    <li><a href=""><h3>Hello-World</h3></a><p>Text text info</p>
-                                        <p class="sub-info">Updated on <date>Sept 3, 2014</date></p>
-                                    </li><hr>
-                                    <li><a href=""><h3>hello-world</h3></a><p>Text text info</p>
-                                        <p class="sub-info">Updated on <date>July 14, 2014</date></p>
-                                    </li><hr>
-                                    <li><a href=""><h3>octocat.github.io</h3></a><p>Text text info</p>
-                                        <p class="sub-info">Updated on <date>June 20, 2014</date></p>
-                                    </li><hr>
-                                    <li><a href=""><h3>git-consortium</h3></a><p>Text text info</p>
-                                        <p class="sub-info">Updated on <date>Jan 2, 2014</date></p>
-                                    </li><hr>
+                                <ul class="tab2">
+                                    <!-- {{REPOS GO HERE}}-->
                                 </ul>
                             </div>
-                        </div>
-                        </div>
+                        </div> <!-- TAB B contents -->
+                        <div>
+                            <form id="userComment" method="post" enctype="text/plain">
+                                <label>Comment</label><br>
+                                <textarea class="comment-box col-sm-12 col-xs-12 col-md-12" placeholder="Comment here!" form="userComment" required></textarea>
+                                <button id="submit" type="button"  form="userComment">Submit</button>
+                            </form>
+                            
+                        </div> <!-- .comment-box -->
+                        </div> <!-- .tab-content -->
                     </div>
                 </nav>
-            </div>    
-<!--  end of main col          -->
+            </div>    <!--  end of main col  -->
                 
         </div>  <!-- .container -->  
         
@@ -90,8 +87,9 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
