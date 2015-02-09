@@ -25,7 +25,8 @@
         var repoTab1 = $.map(repos, function(name, i){
             var listItem = $('<li></li>');
             var repI = repos[i];
-            $('<a href="https://github.com/eklemen/' + repos[i].name + '">' +  '<h3 class="octicon octicon-repo">' + repI.name + '</h3></a>').appendTo(listItem);
+            $('<a href="https://github.com/eklemen/' + repos[i].name + '">' + 
+              '<h3 class="octicon octicon-repo">' + repI.name + '</h3></a>').appendTo(listItem);
             $('<p class="description">' + repI.description + '</p><hr>').appendTo(listItem);
             //               console.log(repos[i].name);     
             return listItem;
@@ -34,7 +35,8 @@
             var repoTab2 = $.map(repos, function(name, i){
               var listItem = $('<li></li>');
               var repI = repos[i];
-              $('<a href="https://github.com/eklemen/' + repos[i].name + '">' + '<h3>' + repI.name + '</h3></a>').appendTo(listItem);
+              $('<a href="https://github.com/eklemen/' + repI.name + '">' + 
+                '<h3>' + repI.name + '</h3></a>').appendTo(listItem);
               $('<p>' + repI.description + '</p>').appendTo(listItem);
               $('<p class="updated">' + repI.updated_at + '</p><hr>').appendTo(listItem);
 //               console.log(repos[i].name);     
@@ -45,7 +47,8 @@
             
         });
         $("#submit").on('click', function(){
-            $.post("https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/250/comments?access_token=b8b4f2f9b8c99ce634276b29acdfd7ad8a05cdb4", JSON.stringify({"body": $(".comment-box").val()})),
+            $.post("https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/250/comments?access_token=b8b4f2f9b8c99ce634276b29acdfd7ad8a05cdb4",
+            JSON.stringify({"body": $(".comment-box").val()})),
             $(".comment-box").val("");    
         });
         
