@@ -4,7 +4,7 @@
     $(document).ready(function(){
 //        var user = $.get('../apis/github/users/eklemen/eklemen.json');
 //        console.log(user);
-        var path = '../apis/github/users/eklemen/eklemen.json';
+        var path = 'https://api.github.com/users/eklemen';
         
         $.getJSON(path, function(json){
             var user = json;
