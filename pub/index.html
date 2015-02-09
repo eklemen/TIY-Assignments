@@ -20,17 +20,20 @@
     </head>
     <body>
         <div class="container-fluid">
-            <div class='col-xs-12 col-sm-3 col-md-3'>
-                    <figure><img class='octocat img-responsive'  src='https://octodex.github.com/images/adventure-cat.png' />
+            <div class='col-xs-12 col-md-3 col-sm-3'>
+                    <figure><img class='profile-pic img-responsive' />
                     </figure>
                     <figcaption>
-                        <p>The Octocat</p>
+                        <p id="myName">{{NAME}}</p>
                     </figcaption>
                 <hr>
                     <nav class="contact">
-                        <p id="location"></p>
+                        <span class="octicon octicon-location"></span>
+                        <p id="location"></p><br>
+                        <span class="octicon octicon-mail"></span>
                         <a id='email' href="">{{email}}</a><br>
-                        <a id='github-link' href="">B http://eklemen.github.io/</a>
+                        <span class="octicon octicon-link"></span>
+                        <a id='github-link' href="">{{GITHUB LINK}}}}</a>
                     </nav><hr class="hidden-sm hidden-xs">
                 <div class="stats">
                     <a id='followers' href="">{{FOLLOWERS}}</a>
@@ -39,7 +42,7 @@
                 </div>
                 <hr>
                 </div>
-            <div class='col-md-9'>
+            <div class='col-md-9 col-sm-12'>
                 <nav role="navigation">
                     <ul class="nav nav-tabs">
                       <li role="presentation" class="nav active col-xs-4 col-sm-3">
@@ -61,9 +64,6 @@
                         <div class="tab-pane fade" id="B">
                             <div class='repo-tab'>
                                 <ul class="tab2">
-                                    <li><a href=""><h3>Spoon-Knife</h3></a>
-                                        <p>Info info</p>
-                                    </li><hr>
                                     <!-- {{REPOS GO HERE}}-->
                                 </ul>
                             </div>

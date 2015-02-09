@@ -4,10 +4,13 @@
     $(document).ready(function(){
 //        var user = $.get('../apis/github/users/eklemen/eklemen.json');
 //        console.log(user);
-        var path = 'https://api.github.com/users/eklemen';
+        var path = '../apis/github/users/eklemen/eklemen.json';
         
         $.getJSON(path, function(json){
             var user = json;
+            $('#myName').html(user.name);
+            $('.profile-pic').html(user.avatar_url)
+                .attr("src", user.avatar_url);
             $('#location').html(user.location);
             $('#email').html(user.email)
                 .attr('href', 'mailto:' + user.email);
@@ -22,8 +25,8 @@
         var repoTab1 = $.map(repos, function(name, i){
             var listItem = $('<li></li>');
             var repI = repos[i];
-            $('<a href="https://github.com/eklemen/' + repos[i].name + '">' +  '<h3>' + repI.name + '</h3></a>').appendTo(listItem);
-            $('<p>' + repI.description + '</p><hr>').appendTo(listItem);
+            $('<a href="https://github.com/eklemen/' + repos[i].name + '">' +  '<h3 class="octicon octicon-repo">' + repI.name + '</h3></a>').appendTo(listItem);
+            $('<p class="description">' + repI.description + '</p><hr>').appendTo(listItem);
             //               console.log(repos[i].name);     
             return listItem;
             });
