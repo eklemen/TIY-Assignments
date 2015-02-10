@@ -3,6 +3,9 @@ $(document).ready(function(){
        this._color = color;
        this._name = name;
        this._position = position;
-   } 
+   }
+    
+    var whiteQueen = new Piece('white', 'queen', "D1");
+    
     
 });
