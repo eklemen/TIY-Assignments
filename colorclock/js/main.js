@@ -8,7 +8,7 @@ $(document).ready(function(){
         var sec = timeOnly.slice(6, 8);
         var color = '#'+hours+min+sec;
         var change = $('body').css("background-color", color);
-        $('p').html(hours + ':' + min + ':' + sec);
+        $('#clock > p').html(hours + ':' + min + ':' + sec);
     };
     setInterval(function(){jsTime()}, 1000);
     var nums = 14;

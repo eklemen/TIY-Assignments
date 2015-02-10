@@ -103,22 +103,55 @@ textarea {
     position: relative;
 }
 
+.side {
+    position: absolute;
+    font-size: 0.6ex;
+    left: 0.5em;
+}
+
+.side > p {
+    color: #9a9a9a;
+}
+
+#snooze-button {
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    left: -1.5em;
+    top: 3.5ex;
+    background-color: #7e0000;
+}
+
+#alarm-button {
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    left: -1.5em;
+    top: 9.5ex;
+    background-color: #7e0000;
+}
+
 .small-box {
+    position: relative;
     margin: 10em auto;
-    height: 2em;
+    height: 10em;
     width: 20em;
-    
+    background-color: #363636;
+    border-radius: 1ex;
 }
 
 #clock {
-    margin: 0 auto;
+    position: absolute;
     background-color: #000;
     text-align: center;
     border-radius: 2ex;
+    line-height: 0;
+    top: 4ex;
+    left: 3.4em;
 }
 p {
     font-family: 'Share Tech Mono';
-    color: #e2e2e2;
+    color: #7e0000;
     font-size: 3em;
     opacity: 1;
 }
