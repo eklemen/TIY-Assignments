@@ -97,9 +97,66 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
 
+.side {
+    position: absolute;
+    font-size: 0.6ex;
+    left: 0.5em;
+}
 
+.side > p {
+    color: #9a9a9a;
+}
 
+#snooze-button {
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    left: -1.4em;
+    top: 3.5ex;
+    background-color: #7e0000;
+    border-radius: 0.5ex;
+}
+
+#alarm-button {
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    left: -1.4em;
+    top: 9.5ex;
+    background-color: #7e0000;
+    border-radius: 0.5ex;
+}
+
+.small-box {
+    position: relative;
+    margin: 10em auto;
+    height: 10em;
+    width: 20em;
+    background-color: #363636;
+    border-radius: 1ex;
+}
+
+#clock {
+    position: absolute;
+    background-color: #000;
+    text-align: center;
+    border-radius: 2ex;
+    line-height: 0;
+    top: 4ex;
+    left: 3.4em;
+}
+p {
+    font-family: 'Share Tech Mono';
+    color: #7e0000;
+    font-size: 3em;
+    opacity: 1;
+}
 
 
 
