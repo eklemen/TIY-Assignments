@@ -1,5 +1,8 @@
 $(document).ready(function(){
-    var assert
-    
+   function Piece(color, name, position){
+       this._color = color;
+       this._name = name;
+       this._position = position;
+   } 
     
 });
