@@ -102,15 +102,25 @@ textarea {
     margin: 0 auto;
     position: relative;
 }
-#clock {
-    color: gray;
-    font-size: 3em;
-    width: 8em;
+
+.small-box {
+    margin: 10em auto;
+    height: 2em;
+    width: 20em;
+    
 }
 
+#clock {
+    margin: 0 auto;
+    background-color: #000;
+    text-align: center;
+    border-radius: 2ex;
+}
 p {
-    display: inline-block;
     font-family: 'Share Tech Mono';
+    color: #e2e2e2;
+    font-size: 3em;
+    opacity: 1;
 }
 
 
