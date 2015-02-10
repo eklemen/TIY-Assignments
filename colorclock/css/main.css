@@ -117,18 +117,20 @@ textarea {
     position: absolute;
     height: 1em;
     width: 1em;
-    left: -1.5em;
+    left: -1.4em;
     top: 3.5ex;
     background-color: #7e0000;
+    border-radius: 0.5ex;
 }
 
 #alarm-button {
     position: absolute;
     height: 1em;
     width: 1em;
-    left: -1.5em;
+    left: -1.4em;
     top: 9.5ex;
     background-color: #7e0000;
+    border-radius: 0.5ex;
 }
 
 .small-box {
