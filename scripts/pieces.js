@@ -7,5 +7,6 @@ $(document).ready(function(){
     
     var whiteQueen = new Piece('white', 'queen', "D1");
     
+    console.log(whiteQueen);
     
 });
