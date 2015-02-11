@@ -1,11 +1,9 @@
-// var assert = require('chai').assert;
+ var assert = require('chai').assert;
 var vm = new Vue({ /* options */ });
 //
 // assert.isDefined(vm.$el);
 // console.log(vm.$data);
 // console.assert(vm.$data);
-
-var assert = require('assert');
 
     var cols = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
 //    function Board(){
