@@ -1,4 +1,4 @@
- var assert = require('chai').assert;
+//var assert = require('chai').assert;
 var vm = new Vue({ /* options */ });
 //
 // assert.isDefined(vm.$el);
@@ -42,12 +42,12 @@ var vm = new Vue({ /* options */ });
         }
     };
 
-    it('should equal position', function(){
-        var Bishop = new Piece('white', 'bishop', 'C1');
-        assert.equal(Bishop.getPosition(), 'C1');
-        assert.equal(Bishop.getColor(), 'white');
-        assert.equal(Bishop.getAbbrev(), "b");
-        assert.equal(Bishop.toHTML(), "b");
-    });
+//    it('should equal position', function(){
+//        var Bishop = new Piece('white', 'bishop', 'C1');
+//        assert.equal(Bishop.getPosition(), 'C1');
+//        assert.equal(Bishop.getColor(), 'white');
+//        assert.equal(Bishop.getAbbrev(), "b");
+//        assert.equal(Bishop.toHTML(), "b");
+//    });
 
     console.log(whiteQueen);
