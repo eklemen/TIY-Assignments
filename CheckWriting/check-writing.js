@@ -1,23 +1,26 @@
 var ones = {
+    0: 'zero',
     1: 'one',
     2: 'two',
     3: 'three',
     4: 'four',
     5: 'five',
-    6: 'six'
+    6: 'six',
+    7: 'seven',
+    8: 'eight',
+    9: 'nine'
 }
 
-var tens = {
-    20: 'twenty'
-}
+var tens = ['twenty', 'thirty'];
 
 function foo(input){
-    if(input>6){
-        return tens[20];
-    } else {
-        return ones[input];
-    }
+    console.log(input.slice(0,1));
+//    if(input>9){
+//        return tens[input-10];
+//    } else {
+//        return ones[input];
+//    }
 }
 
 
-console.log(foo(3));
+console.log(foo(11));
