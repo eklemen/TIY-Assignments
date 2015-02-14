@@ -1,0 +1,16 @@
+.inside {
+    max-width: 60em;
+    border-left: solid cornflowerblue 1em;
+}
+.inside > ul {
+    list-style: none;
+}
+li {
+    position: relative;
+}
+
+li > article {
+    padding: 0.5em 2ex;
+    color: white;
+    background-color: cornflowerblue;
+}
