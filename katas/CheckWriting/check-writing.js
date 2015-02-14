@@ -1,26 +1,24 @@
-var ones = {
-    0: 'zero',
-    1: 'one',
-    2: 'two',
-    3: 'three',
-    4: 'four',
-    5: 'five',
-    6: 'six',
-    7: 'seven',
-    8: 'eight',
-    9: 'nine'
-}
+var ones =['zero','one','two','three','four','five','six','seven','eight','nine','ten','elevent','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen'];
 
-var tens = ['twenty', 'thirty'];
+var tens = [ , , 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
+
+
 
 function foo(input){
-    console.log(input)
-    if(input>9){
-        return tens[input-10];
+    var tenPlace = input.toString();
+    var tenSlice = tenPlace.slice(0,1);
+    var tenParse = parseInt(tenSlice);
+    
+    var onePlace = input.toString();
+    var oneSlice = onePlace.slice(1,2);
+    var oneParse = parseInt(oneSlice);
+    
+    if(input>=19){
+        return tens[tenParse] + '-' + ones[oneParse];
     } else {
         return ones[input];
     }
 }
 
 
-console.log(foo(11));
+console.log(foo(18));
