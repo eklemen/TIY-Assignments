@@ -1,16 +1,52 @@
 .inside {
-    max-width: 60em;
     border-left: solid cornflowerblue 1em;
+    margin-top: 3em;
+    max-width: 70em;
 }
 .inside > ul {
     list-style: none;
 }
 li {
     position: relative;
+    margin-bottom: 6ex;
+}
+
+li:last-child{
+    margin-bottom: 0;
 }
 
 li > article {
     padding: 0.5em 2ex;
     color: white;
     background-color: cornflowerblue;
+    border-radius: 1ex;
+}
+.bubble{
+    position: absolute;
+    left: -6.15em;
+    top: -0.2ex;
+    background-color: cornflowerblue;
+    width: 3.5em;
+    height: 3.5em;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.glyphicon {
+    font-size: 2em;
+    position: absolute;
+    background-color: lightblue;
+    border-radius: 50%;
+    top: 0.5ex;
+    left: 0.38em;
+}
+
+/******************
+Media query
+******************/
+
+@media (max-width: 768px){
+    .inside{
+        border-left: none;
+    }
 }
