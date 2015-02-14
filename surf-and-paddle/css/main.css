@@ -5,7 +5,13 @@ header {
     background-size: cover;
 }
 .main{
-    max-width: 55em;
+    max-width: 90em;
+}
+aside {
+    margin-top: 5ex;
+}
+.author-pic{
+    border-radius: 50%;
 }
 #author-links {
     text-align: center;
@@ -18,3 +24,10 @@ header {
 .pop-box {
     padding: 0;
 }
+
+.overlay{
+background-color: #00907a;
+z-index: 99;
+opacity: 0.5;
+}
+
