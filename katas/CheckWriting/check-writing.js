@@ -19,7 +19,8 @@ function foo(input){
     
     if(input>99){
         return ones[hundParse] + ' hundred ' + tens[tenParse] + ' ' + ones[oneParse];
-        
+        // need to add an if statement for 100-119 but there are more important
+        // things to worry about at the moment
     } else if (input>19){
         return tens[tenParse] + '-' + ones[oneParse];
 
