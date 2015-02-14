@@ -3,4 +3,4 @@
 
 ### Projects
 
-* [Current WIP](pub/index.html)
+* [checkwriting](katas/CheckWriting/check-writing.js)

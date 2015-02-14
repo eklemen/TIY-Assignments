@@ -14,12 +14,12 @@ var ones = {
 var tens = ['twenty', 'thirty'];
 
 function foo(input){
-    console.log(input.slice(0,1));
-//    if(input>9){
-//        return tens[input-10];
-//    } else {
-//        return ones[input];
-//    }
+    console.log(input)
+    if(input>9){
+        return tens[input-10];
+    } else {
+        return ones[input];
+    }
 }
 
 
