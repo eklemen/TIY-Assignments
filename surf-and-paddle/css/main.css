@@ -4,6 +4,9 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.main{
+    max-width: 55em;
+}
 #author-links {
     text-align: center;
 }
