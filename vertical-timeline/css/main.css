@@ -73,6 +73,9 @@ Media query
         margin: 6em 2em 0 2em;
         border-left: none;
     }
+    ul {
+        padding-left: 0;
+    }
     li {
         margin-bottom: 10ex;
     }
