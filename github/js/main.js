@@ -19,7 +19,14 @@
             //popular repo
             $.getJSON(user.repos_url, function(repos){
                 
-            })
+            var repoTab1 = $.map(repos, function(name, index){
+                var newListItem = $('<li></li>');
+                var repI = repos[index];
+                $('<h3>' + repI.name + '</h3>').appendTo(newListItem);
+                return newListItem;
+            });
+               $('.tab1').append(repoTab1); 
+            });
             
         })
         
