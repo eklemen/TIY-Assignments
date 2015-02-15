@@ -15,6 +15,18 @@ big{
 .stats {
     text-align: center;
 }
+.tab1 > li {
+    position: relative;
+}
+.tab1 > li > h3::after {
+    content: '\2b51';
+    position: absolute;
+    right: 1em;
+    color: #999;
+}
+.repo-descrption{
+    color: #999;
+}
 .tab-content{
     margin-top: 2ex;
 }
