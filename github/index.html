@@ -18,7 +18,7 @@
     </head>
     <body>
         <div class="container">
-            <div class='col-md-4'>
+            <div class='col-sm-3 col-md-3'>
                 <div>
                     <img id='profile-pic' class='img-responsive'  src='https://avatars1.githubusercontent.com/u/583231?v=3&s=460' />
                 </div>    
@@ -36,15 +36,31 @@
                     <hr>
                     
                 </section>
-            </div>
-            <div class='col-md-8'>
-                <ul class="nav nav-tabs">
-                  <li role="presentation" class="active"><a href="A">Contributions</a></li>
-                  <li role="presentation"><a href="B">Repos</a></li>
-                  <li role="presentation"><a href="C">Public activity</a></li>
-                </ul>
-            </div>
-        </div>
+            </div> <!-- side col -->
+            <div class='col-sm-9 col-md-9'>
+                <nav role="navigation">
+                    <ul class="nav nav-tabs">
+                      <li role="presentation" class="active"><a href="#A">+ Contributions</a></li>
+                      <li role="presentation"><a href="#B">+ Repos</a></li>
+                      <li role="presentation"><a href="#C">+ Public activity</a></li>
+                    </ul>
+                    <div class='tab-content'>
+                        <div id="A" class="tab-pane fade in active">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class='panel-title'>Popular Repositories</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <ul class='tab1'>
+                                        <li>{{repos}}</li>
+                                    </ul>
+                                </div>
+                            </div> <!-- panel with pop repos inside -->
+                        </div>
+                    </div>
+                </nav> <!-- tab and contents-->
+            </div> <!-- main col -->
+        </div> <!-- .container -->
 
         <!-- bower:js -->
         <script src="bower_components/jquery/dist/jquery.js"></script>

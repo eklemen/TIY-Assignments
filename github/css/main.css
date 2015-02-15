@@ -2,6 +2,12 @@
     height: 230px;
     width: 230px;
 }
-#side-links > ul{
+ul{
     list-style: none;
+    padding: 0;
+}
+.tab-content{
+    margin-top: 2ex;
+}
+.panel-default {
 }
