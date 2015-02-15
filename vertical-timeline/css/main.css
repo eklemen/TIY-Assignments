@@ -21,6 +21,20 @@ li > article {
     background-color: cornflowerblue;
     border-radius: 1ex;
 }
+article > h3 {
+    margin-top: 0.3ex;
+}
+article > span::before {
+    content: '\25b8';
+    position: absolute;
+    font-size: 2.5em;
+    left: -0.35em;
+    color: cornflowerblue;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
 .bubble{
     position: absolute;
     left: -6.15em;
@@ -45,8 +59,38 @@ li > article {
 Media query
 ******************/
 
-@media (max-width: 768px){
+@media (min-width: 491px) and (max-width: 768px){
     .inside{
+        margin: 3em 2em 0 2em;
         border-left: none;
+    }
+    .bubble{
+        left: -5em;
+    }
+}
+@media (max-width: 490px){
+    .inside{
+        margin: 6em 2em 0 2em;
+        border-left: none;
+    }
+    li {
+        margin-bottom: 10ex;
+    }
+
+    li:last-child{
+        margin-bottom: 0;
+    }
+    .bubble{
+        left: auto;
+        right: 0.5em;
+        top: -9ex;
+    }
+    article > span::before {
+        left: auto;
+        right: 0.7em;
+        top: -1.5ex;
+        -ms-transform: rotate(-90deg); /* IE 9 */
+        -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+        transform: rotate(-90deg);
     }
 }
