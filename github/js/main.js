@@ -27,7 +27,9 @@
                 $('<p class="repo-description">' + repI.description + '</p><hr>').appendTo(newListItem);
                 return newListItem;
             });
-               $('.tab1').append(repoTab1); 
+               $('.tab1').append(repoTab1);
+                
+            var repoTab2;
             });
             
         })
