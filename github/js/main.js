@@ -13,6 +13,14 @@
             $('#email').html(user.email)
                 .attr('href', 'mailto:' + user.email);
             $('#joined-on').text('Joined on: ' + user.created_at.substring(0,10));
+            $('#follower-number').text(user.followers);
+            $('#following-number').text(user.following);
+            
+            //popular repo
+            $.getJSON(user.repos_url, function(repos){
+                
+            })
+            
         })
         
         

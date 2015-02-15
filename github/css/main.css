@@ -8,6 +8,13 @@ ul{
     list-style: none;
     padding: 0;
 }
+big{
+    font-size: 2em;
+    color: cornflowerblue;
+}
+.stats {
+    text-align: center;
+}
 .tab-content{
     margin-top: 2ex;
 }
