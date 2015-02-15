@@ -1,6 +1,3 @@
-(function (window){
-    'use strict';
-    
     $(document).ready(function(){
         var path = 'gh-api/eklemen.json';
         
@@ -27,9 +24,18 @@
                 $('<p class="repo-description">' + repI.description + '</p><hr>').appendTo(newListItem);
                 return newListItem;
             });
-               $('.tab1').append(repoTab1);
+                $('.tab1').append(repoTab1);
                 
-            var repoTab2;
+                var repoTab2 = $.map(repos, function(name, index){
+                var newListItem = $('<li></li>');
+                var repI = repos[index];
+                $('<h3><a href="https://github.com/eklemen/' + repI.name + '">'  + repI.name + '</a></h3>')
+                    .appendTo(newListItem);
+                $('<p class="repo-description">' + repI.description + '</p>').appendTo(newListItem);
+                $('<p class="updated>">' + repI.updated_at.substring(0,10) + '</p><hr>').appendTo(newListItem);    
+                return newListItem;
+            });
+                $('.tab2').append(repoTab2);
             });
             
         })
@@ -38,5 +44,4 @@
         
         
         
-    })
-})(window);
+    });
