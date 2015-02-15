@@ -1,16 +1,25 @@
 var events = require('./events.json');
+var _ = require('lodash');
 
 function answer(){
     console.log(events.length);
     return {
         'total': events.length,
         'PushEvent':{
-            'total':
+            'total': foo("PushEvent").length
         }
     }
 }
 
+function foo(eventType){
+        return _.filter(events, {'type':eventType});
+    }
+
+
+
+//var pushEvents = _.filter(events, {'type':'PushEvent'})
 console.log(answer());
+//console.log(answer());
 
 //function answer(){
 //  return {
