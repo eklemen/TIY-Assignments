@@ -8,3 +8,4 @@
 * [string-calc](katas/string-calc.js)
 * [vertical-timeline](vertical-timeline/index.html)
 * [github-profile](github/index.html)
+* [apiGymnastics](apiGymnastics/main.js)
