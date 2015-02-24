@@ -1,5 +1,15 @@
 (function(){
-    ver gem = {name: 'Azurite', price: 2.95};
+    
     var app = angular.module('gemStore', []);
-    app.controller('StoreController', function(){});
+    app.controller('StoreController', function(){
+        this.product = gem;
+    });
+    
+    var gem = [
+        { name: 'Azurite', price: 2.95 },
+        { name: 'Bloodstone', price: 5.95 },
+        { name: 'Zircon', price: 3.95 }
+
+    ];
+    
 })();
