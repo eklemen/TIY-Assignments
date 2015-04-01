@@ -1,0 +1,33 @@
+header {
+    height: 20em;
+    background-image: url(http://www.awi.de/fileadmin/user_upload/Infrastructure/Ships/Polarstern/Weekly_Reports/ANT-XXV-3/2009-03-15/Wave_MEttlin_p.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    max-width: 90em;
+}
+aside {
+    margin-top: 5ex;
+}
+.author-pic{
+    border-radius: 50%;
+}
+#author-links {
+    text-align: center;
+}
+
+#about-ad {
+    text-align: right;
+}
+
+.pop-box {
+    padding: 0;
+}
+
+.overlay{
+background-color: #00907a;
+z-index: 99;
+opacity: 0.5;
+}
+
